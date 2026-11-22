@@ -112,7 +112,8 @@ try {
   chrome.kill();
   await exited;
   if (server) server.kill();
-  fs.rmSync(profile, { recursive: true, force: true, maxRetries: 5, retryDelay: 200 });
+  // Chrome's helper processes can still be writing to the profile for a moment; cleanup is best effort.
+  try { fs.rmSync(profile, { recursive: true, force: true, maxRetries: 5, retryDelay: 300 }); } catch { /* temp dir */ }
 }
 if (failures.length) {
   console.log("\nFAILURES:\n  " + failures.join("\n  "));
