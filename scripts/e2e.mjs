@@ -14,7 +14,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const args = process.argv.slice(2);
 const screensAt = args.indexOf("--screens");
 const screensDir = screensAt >= 0 ? path.resolve(args[screensAt + 1]) : "";
-let base = args.find((a, i) => /^https?:\/\//.test(a) && i !== screensAt + 1) || "";
+let base = args.find((a, i) => /^https?:\/\//.test(a) && (screensAt < 0 || i !== screensAt + 1)) || "";
 const CHROME = process.env.CHROME || ["google-chrome", "google-chrome-stable", "chromium", "chromium-browser"]
   .map((c) => { try { return execFileSync("which", [c]).toString().trim(); } catch { return ""; } }).find(Boolean)
   || "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
