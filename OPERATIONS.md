@@ -16,7 +16,7 @@ AI Privacy Scorecard runs itself on GitHub: Pages for hosting, Actions for every
 
 GitHub skips and delays scheduled runs on this account (hours late, sometimes not at all). That is why the policy check has two weekly slots, every job is safe to re-run, and the self-test starts a check when the data is stale. Times above are when a run is *requested*.
 
-Temporary lines: `check.yml` and `selftest.yml` each carry one cron line marked `TEMPORARY` that only fires on 22-23 November; it proved the schedule trigger at launch and should be deleted once a scheduled run has passed (it would fire again on the same dates next year).
+Schedule check at launch: on 22 Nov 2026 the weekly self-test and the policy check each ran on their own schedule and passed (first runs at 17:13 and 19:56 UTC). The temporary cron lines that made them fire early were then removed.
 
 ## How documents are read
 
