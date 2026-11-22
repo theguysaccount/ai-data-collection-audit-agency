@@ -1,1 +1,23 @@
-[]
+[
+ {
+  "added": 3,
+  "app": "grok",
+  "archive_url": "",
+  "capture": "",
+  "date": "2026-11-22",
+  "detected": "2026-11-22",
+  "doc": "faq",
+  "excerpts": [
+   "On Grok.com, your recent conversations are listed under \"Chats\" in the sidebar, and you can open your conversation history page at grok.com/history.",
+   "Grok.com Data & Account Deletion: On the grok.com website, if you want to delete a specific conversation, go to your conversation history page at grok.com/history, find the conversation, select \"Delete\" (the trash icon) on its row or in the \"...\" menu on its row, and then …",
+   "On a computer, these controls appear when you hover over the conversation."
+  ],
+  "id": "2026-11-22-grok-faq",
+  "quotes_checked": 16,
+  "quotes_missing": [],
+  "removed": 2,
+  "title": "Grok Consumer FAQs",
+  "url": "https://x.ai/legal/faq",
+  "via": "direct"
+ }
+]
