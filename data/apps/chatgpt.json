@@ -4,7 +4,7 @@
  "maker": "OpenAI",
  "kind": "Chat assistant",
  "scope": "Personal plans (Free, Go, Plus and Pro), as described in OpenAI's United States privacy policy and help center.",
- "reviewed": "2026-11-10",
+ "reviewed": "2026-11-22",
  "documents": {
   "privacy": {
    "title": "OpenAI Privacy Policy (United States)",
@@ -101,19 +101,15 @@
   },
   "private_mode": {
    "answer": "yes_retention_stated",
-   "summary": "Temporary Chat keeps a chat out of your history and out of model training. OpenAI says it may keep a copy for up to 30 days for safety purposes.",
+   "summary": "Temporary chat keeps a conversation out of your history and out of model training while it remains temporary. OpenAI says it may keep a copy for up to 30 days for safety purposes.",
    "evidence": [
     {
      "doc": "temporary",
-     "quote": "Temporary Chats won’t appear in your history unless you choose to save them."
+     "quote": "A temporary chat stays out of your chat history and is not used to improve OpenAI models while it remains temporary."
     },
     {
      "doc": "temporary",
-     "quote": "A Temporary Chat won’t be used to improve our models while it remains temporary."
-    },
-    {
-     "doc": "temporary",
-     "quote": "For safety purposes we may still keep a copy for up to 30 days."
+     "quote": "OpenAI may keep a copy of a temporary chat for up to 30 days for safety purposes."
     }
    ]
   },
@@ -170,11 +166,19 @@
    },
    {
     "doc": "controls",
-    "quote": "When Improve the model for everyone is off, your new conversations won’t be used to train OpenAI models."
+    "quote": "On personal workspaces with ChatGPT Free, Plus, or Pro, data sharing is enabled by default. You can turn off Improve the model for everyone and keep your chat history."
    },
    {
     "doc": "controls",
     "quote": "Turning off Improve the model for everyone does not delete or hide saved chats."
+   },
+   {
+    "doc": "controls",
+    "quote": "During Daybreak sessions on your personal account, we may use content from your interactions to improve our models even when “Improve the model for everyone” is off."
+   },
+   {
+    "doc": "controls",
+    "quote": "Voice mode has a separate control for sharing data for model training."
    },
    {
     "doc": "training",
@@ -182,8 +186,9 @@
    }
   ],
   "caveats": [
-   "The setting covers new conversations. It does not delete saved chats.",
-   "Sending feedback on a response can still allow that conversation to be used for training."
+   "Turning the setting off does not delete saved chats.",
+   "Sending feedback on a response can still allow that conversation to be used for training.",
+   "OpenAI says content from Trusted Access (Daybreak) sessions may be used even with the setting off, and that voice mode has its own training control."
   ]
  }
 }

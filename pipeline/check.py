@@ -78,7 +78,7 @@ def read_document(app: dict, doc_id: str, doc: dict, prev: dict, *, offline: boo
         return rec, None
     text = doc_text(doc, res.text())
     words = len(text.split())
-    if words < MIN_WORDS or (prev.get("words") and words < prev["words"] * SHRINK):
+    if words < doc.get("min_words", MIN_WORDS) or (prev.get("words") and words < prev["words"] * SHRINK):
         rec["status"] = "unreachable"
         rec["error"] = f"the page returned only {words} words of text (was {prev.get('words', 'unknown')})"
         return rec, None
@@ -143,8 +143,8 @@ def check_app(app: dict, state: dict, changes: list, *, offline: bool = False, d
                 changes.append(event)
                 new_events.append(event)
         elif missing:
-            # The text is the same but a quote is not in it: the scorecard data was edited wrongly.
-            print(f"  ! {key}: {len(missing)} quote(s) not found in an unchanged document", flush=True)
+            what = "an unchanged document" if old_sig else "the document (first read, nothing to compare with)"
+            print(f"  ! {key}: {len(missing)} quote(s) not found in {what}", flush=True)
         if not offline:
             S.save_sig(slug, doc_id, new_sig, data)
     return new_events
@@ -184,15 +184,16 @@ def main(argv=None) -> int:
         # the cache is not evidence that a page was read today.
         pass
     else:
-        state["checked"] = now_iso()
-        if ok:
-            state["last_run_ok"] = state["checked"]
+        if not args.only:  # "checked" means every scorecard was checked
+            state["checked"] = now_iso()
+            if ok:
+                state["last_run_ok"] = state["checked"]
         S.save_state(state, args.data)
         S.save_changes(changes, args.data)
     if args.events_out:
         with open(args.events_out, "w", encoding="utf-8") as f:
             json.dump(new_events, f, ensure_ascii=False, indent=1)
-    missing = [q for q in state["quotes"].values() if not q.get("found")]
+    missing = [q for q in state["quotes"].values() if not q.get("found") and (not args.only or q.get("app") in args.only)]
     print(f"documents: {ok} read, {len(state['docs']) - ok} not read; quotes: "
           f"{len(state['quotes']) - len(missing)} found, {len(missing)} not found; new changes: {len(new_events)}")
     summary = os.environ.get("GITHUB_STEP_SUMMARY")

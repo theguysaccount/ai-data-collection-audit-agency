@@ -1,0 +1,41 @@
+name: Correction
+description: An answer, quote or summary on a scorecard doesn't match the company's own document
+title: "Correction: "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Every answer should match the company's own privacy policy or help pages. If one doesn't, that's our error.
+        Each report is checked against the document before anything changes; accepted corrections are listed on the site's change log.
+        **This issue is public.** Please don't include personal contact details.
+  - type: input
+    id: app
+    attributes:
+      label: App
+      description: The scorecard's app, e.g. chatgpt
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: Link to the scorecard page
+  - type: textarea
+    id: claim
+    attributes:
+      label: What is wrong
+      description: The question, the answer or the quote you believe is wrong
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: What the company's document says
+      description: A link to the document and the passage, quoted exactly
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else

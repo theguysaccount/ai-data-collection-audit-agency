@@ -4,23 +4,50 @@
  "maker": "Perplexity AI",
  "kind": "AI search assistant",
  "scope": "Free, Pro and Max plans, as described in Perplexity's privacy notice and help center. Enterprise plans follow different terms.",
- "reviewed": "2026-11-10",
+ "reviewed": "2026-11-22",
  "documents": {
-  "privacy": {"title": "Perplexity Privacy Notice", "url": "https://www.perplexity.ai/hub/legal/privacy-policy"},
-  "collection": {"title": "Data Collection at Perplexity", "url": "https://www.perplexity.ai/help-center/en/articles/11564572-data-collection-at-perplexity"},
-  "retention": {"title": "How long Perplexity retains your search and personal data", "url": "https://www.perplexity.ai/help-center/en/articles/10354873-how-long-does-perplexity-retain-my-search-history-profile-data-and-personal-information"},
-  "self-serve": {"title": "Self-Serve Data Options", "url": "https://www.perplexity.ai/hub/legal/self-serve-data-options"},
-  "providers": {"title": "Are third-party model providers training on my data?", "url": "https://www.perplexity.ai/help-center/en/articles/10354963-are-third-party-model-providers-training-on-my-data"},
-  "incognito": {"title": "Incognito Mode Troubleshooting", "url": "https://www.perplexity.ai/help-center/en/articles/12639758-incognito-mode-troubleshooting"}
+  "privacy": {
+   "title": "Perplexity Privacy Notice",
+   "url": "https://www.perplexity.ai/hub/legal/privacy-policy"
+  },
+  "collection": {
+   "title": "Data Collection at Perplexity",
+   "url": "https://www.perplexity.ai/help-center/en/articles/11564572-data-collection-at-perplexity"
+  },
+  "retention": {
+   "title": "How long Perplexity retains your search and personal data",
+   "url": "https://www.perplexity.ai/help-center/en/articles/10354873-how-long-does-perplexity-retain-my-search-history-profile-data-and-personal-information"
+  },
+  "self-serve": {
+   "title": "Self-Serve Data Options",
+   "url": "https://www.perplexity.ai/hub/legal/self-serve-data-options"
+  },
+  "providers": {
+   "title": "Are third-party model providers training on my data?",
+   "url": "https://www.perplexity.ai/help-center/en/articles/10354963-are-third-party-model-providers-training-on-my-data"
+  },
+  "incognito": {
+   "title": "Incognito Mode Troubleshooting",
+   "url": "https://www.perplexity.ai/help-center/en/articles/12639758-incognito-mode-troubleshooting"
+  }
  },
  "answers": {
   "training": {
    "answer": "on_with_setting",
    "summary": "Perplexity says AI data retention is enabled by default on Free, Pro and Max plans, and that some data may be used to train AI models unless you opt out in your account settings.",
    "evidence": [
-    {"doc": "collection", "quote": "For Free, Perplexity Pro and Perplexity Max users, AI Data Retention is enabled by default."},
-    {"doc": "collection", "quote": "AI model training: Some data may be used to train AI models and improve search quality, unless you opt out through Account Settings"},
-    {"doc": "providers", "quote": "No, Perplexity’s agreements with third party model providers like OpenAI and Anthropic prohibit using Perplexity data for training their models."}
+    {
+     "doc": "collection",
+     "quote": "For Free, Perplexity Pro and Perplexity Max users, AI Data Retention is enabled by default."
+    },
+    {
+     "doc": "collection",
+     "quote": "AI model training: Some data may be used to train AI models and improve search quality, unless you opt out through Account Settings"
+    },
+    {
+     "doc": "providers",
+     "quote": "No, Perplexity’s agreements with third party model providers like OpenAI and Anthropic prohibit using Perplexity data for training their models."
+    }
    ],
    "note": "Perplexity says its agreements with outside model providers prohibit them from training on Perplexity data."
   },
@@ -28,16 +55,28 @@
    "answer": "specific",
    "summary": "Perplexity says it keeps personal information while your account is active and removes it from its servers within 30 days of account deletion.",
    "evidence": [
-    {"doc": "retention", "quote": "We retain your personal information as long as your account is active. If you delete your account, your personal information will be removed from our servers within 30 days."}
+    {
+     "doc": "retention",
+     "quote": "We retain your personal information as long as your account is active. If you delete your account, your personal information will be removed from our servers within 30 days."
+    }
    ]
   },
   "deletion": {
    "answer": "self_serve",
    "summary": "Perplexity says you can delete single threads or all threads from your library. A 30-day removal time is stated for deleting the whole account, not for single threads.",
    "evidence": [
-    {"doc": "self-serve", "quote": "To remove a single thread or specific post you’ve created:"},
-    {"doc": "self-serve", "quote": "If you want to remove all content from the threads in your account without deleting your account:"},
-    {"doc": "self-serve", "quote": "All account and personal data will be permanently deleted after 30 days."}
+    {
+     "doc": "self-serve",
+     "quote": "To remove a single thread or specific post you’ve created:"
+    },
+    {
+     "doc": "self-serve",
+     "quote": "If you want to remove all content from the threads in your account without deleting your account:"
+    },
+    {
+     "doc": "self-serve",
+     "quote": "All account and personal data will be permanently deleted after 30 days."
+    }
    ]
   },
   "human_review": {
@@ -49,23 +88,38 @@
    "answer": "no_sale_ads",
    "summary": "Perplexity says it does not sell personal data for money. Its privacy notice describes targeted advertising on its services, with opt-outs.",
    "evidence": [
-    {"doc": "privacy", "quote": "We do not “sell” your personal data for money."},
-    {"doc": "privacy", "quote": "When targeted advertising occurs on our services, you have the choice to opt-out."}
+    {
+     "doc": "privacy",
+     "quote": "We do not “sell” your personal data for money."
+    },
+    {
+     "doc": "privacy",
+     "quote": "When targeted advertising occurs on our services, you have the choice to opt-out."
+    }
    ]
   },
   "private_mode": {
    "answer": "yes",
    "summary": "Incognito does not save your search activity across sessions, and Perplexity says incognito sessions expire within 24 hours. The documents we read do not say whether incognito searches are excluded from AI training.",
    "evidence": [
-    {"doc": "privacy", "quote": "Incognito increases your privacy by not saving your search activity across use sessions."},
-    {"doc": "incognito", "quote": "All incognito sessions expire within 24 hours and are not recoverable."}
+    {
+     "doc": "privacy",
+     "quote": "Incognito increases your privacy by not saving your search activity across use sessions."
+    },
+    {
+     "doc": "incognito",
+     "quote": "All incognito sessions expire within 24 hours and are not recoverable."
+    }
    ]
   },
   "transparency": {
    "answer": "dated",
    "summary": "The privacy notice shows the date it was last updated. We found no link to previous versions in the documents we read.",
    "evidence": [
-    {"doc": "privacy", "quote": "Last updated: October 23, 2026"}
+    {
+     "doc": "privacy",
+     "quote": "Last updated October 23, 2026"
+    }
    ]
   }
  },
@@ -73,28 +127,46 @@
   "business": {
    "summary": "Perplexity says Enterprise data is never used for AI training.",
    "evidence": [
-    {"doc": "collection", "quote": "Perplexity Enterprise data is never used for AI training purposes."}
+    {
+     "doc": "collection",
+     "quote": "Perplexity Enterprise data is never used for AI training purposes."
+    }
    ]
   },
   "age": {
    "summary": "Not meant for children under 13.",
    "evidence": [
-    {"doc": "privacy", "quote": "Our websites and online services are not meant for children under 13 years old, and we do not knowingly collect personal data from children under age 16 without parental consent."}
+    {
+     "doc": "privacy",
+     "quote": "Our websites and online services are not meant for children under 13 years old, and we do not knowingly collect personal data from children under age 16 without parental consent."
+    }
    ]
   }
  },
  "opt_out": {
   "summary": "Turn off the AI data retention toggle in your account preferences.",
   "steps": [
-   "Go to your Account settings.",
-   "Open the Preferences page.",
-   "Turn off the \"AI data retention\" toggle."
+   "Open your Settings.",
+   "Go to the Preferences page.",
+   "Under Artificial Intelligence, turn off the \"AI data retention\" toggle."
   ],
   "evidence": [
-   {"doc": "collection", "quote": "Locate the AI data retention toggle"},
-   {"doc": "collection", "quote": "Toggle off to opt out of AI training data collection"},
-   {"doc": "collection", "quote": "Opt-outs only apply to data collected after the opt-out date"},
-   {"doc": "collection", "quote": "Previously collected training data cannot be deleted or removed"}
+   {
+    "doc": "collection",
+    "quote": "Under Artificial Intelligence, locate the AI data retention toggle"
+   },
+   {
+    "doc": "collection",
+    "quote": "Toggle off to opt out of AI training data collection"
+   },
+   {
+    "doc": "collection",
+    "quote": "Opt-outs only apply to data collected after the opt-out date"
+   },
+   {
+    "doc": "collection",
+    "quote": "Previously collected training data cannot be deleted or removed"
+   }
   ],
   "caveats": [
    "Perplexity says the opt-out applies only to data collected after you opt out.",

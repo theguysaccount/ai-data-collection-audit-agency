@@ -22,9 +22,10 @@
    "title": "Can I delete a chat conversation?",
    "url": "https://help.mistral.ai/en/articles/347613-can-i-delete-a-chat-conversation"
   },
-  "product": {
-   "title": "Vibe product page",
-   "url": "https://mistral.ai/products/vibe"
+  "help-vibe": {
+   "title": "Mistral AI Help Center: Vibe",
+   "url": "https://help.mistral.ai/en/collections/789629-vibe",
+   "min_words": 40
   }
  },
  "answers": {
@@ -131,11 +132,11 @@
    ]
   },
   "name": {
-   "summary": "Mistral AI says Le Chat is now called Vibe, and that conversations, settings and plans carry over.",
+   "summary": "Mistral AI's help center says Le Chat is now called Vibe.",
    "evidence": [
     {
-     "doc": "product",
-     "quote": "Le Chat is now Vibe. All your conversations, settings, and plans carry over."
+     "doc": "help-vibe",
+     "quote": "Le Chat is now Vibe. Find out what changed and where to go for product documentation."
     }
    ]
   }

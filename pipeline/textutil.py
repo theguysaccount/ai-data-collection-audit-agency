@@ -148,10 +148,21 @@ def fingerprint(sentence: str) -> str:
 
 MIN_SENTENCE = 30  # shorter pieces are menus, labels and dates, which churn without meaning
 
+# Sentences that change on every request or every day without the policy changing: request and trace
+# ids, long hex tokens, relative "updated N days ago" stamps, view counters.
+VOLATILE = re.compile(
+    r"\b(trace|request|correlation|ray|session|reference) id\b|\b[0-9a-f]{16,}\b|"
+    r"\bupdated:? (\d+|a|an|one) (second|minute|hour|day|week|month|year)s? ago\b|"
+    r"\bupdated (today|yesterday|this week|last week)\b|\b\d[\d,]* (views|people found this helpful)\b", re.I)
+
+
+def substantial(s: str) -> bool:
+    return len(s) >= MIN_SENTENCE and not VOLATILE.search(s)
+
 
 def signature(text: str) -> list[str]:
     """Sorted fingerprints of the document's substantial sentences."""
-    return sorted({fingerprint(s) for s in sentences(text) if len(s) >= MIN_SENTENCE})
+    return sorted({fingerprint(s) for s in sentences(text) if substantial(s)})
 
 
 def diff(old_sig: list[str], new_text: str) -> tuple[list[str], int]:
@@ -159,7 +170,7 @@ def diff(old_sig: list[str], new_text: str) -> tuple[list[str], int]:
     old = set(old_sig)
     seen, added = set(), []
     for s in sentences(new_text):
-        if len(s) < MIN_SENTENCE:
+        if not substantial(s):
             continue
         fp = fingerprint(s)
         if fp in seen:

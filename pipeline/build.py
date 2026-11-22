@@ -668,7 +668,8 @@ def build(out: str, *, data: str = S.DATA, site_url: str = "", repo: str = "", n
     for name in os.listdir(static):
         src = os.path.join(static, name)
         if name == "indexnow-key.txt":
-            key = open(src, encoding="utf-8").read().strip()
+            with open(src, encoding="utf-8") as f:
+                key = f.read().strip()
             write(out, f"{key}.txt", key + "\n")
         elif os.path.isdir(src):
             shutil.copytree(src, os.path.join(out, name))
