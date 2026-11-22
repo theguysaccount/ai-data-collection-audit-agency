@@ -21,7 +21,7 @@ Temporary lines: `check.yml` and `selftest.yml` each carry one cron line marked 
 ## How documents are read
 
 - `pipeline/fetch.py` sends `AIDataScorecardBot/1.0 (+repo URL)`, reads robots.txt for each host and never fetches a disallowed URL.
-- If a site answers automated readers with a bot challenge or a refusal (401/403/429/503), the reader uses the newest Internet Archive (Wayback Machine) capture of the same URL, if one exists and is less than 180 days old. The scorecard then shows "Internet Archive copy of <date>" and links the capture, and that capture date is the as-of date. It never disguises itself as a browser and never retries through other routes. A robots.txt "disallow" means no reading at all, archived or not.
+- If a site answers automated readers with a bot challenge or a refusal (401/403/429/503), the reader uses the newest Internet Archive (Wayback Machine) capture of the same URL, if one exists and is less than 180 days old. The scorecard then shows "Internet Archive copy of <date>" and links the capture, and that capture date is the as-of date. It never disguises itself as a browser and never retries through other routes. A robots.txt "disallow" means no reading at all, archived or not. A page read only from the archive stays good while its copy is under 180 days old; a page that was read directly and then starts refusing keeps its last direct read for 14 days. After that the page says the latest check could not read it, and the quotes keep their dates.
 - At launch (22 Nov 2026) every document answered directly except Grok's two (x.ai refuses scripts; read from Wayback captures of 12 and 17 Nov).
 
 ## What to watch
