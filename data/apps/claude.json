@@ -4,7 +4,7 @@
  "maker": "Anthropic",
  "kind": "Chat assistant",
  "scope": "Consumer plans (Free, Pro and Max), as described in Anthropic's privacy policy, privacy center and help center.",
- "reviewed": "2026-11-10",
+ "reviewed": "2026-11-22",
  "documents": {
   "privacy": {
    "title": "Anthropic Privacy Policy",
