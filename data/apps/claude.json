@@ -1,0 +1,118 @@
+{
+ "slug": "claude",
+ "name": "Claude",
+ "maker": "Anthropic",
+ "kind": "Chat assistant",
+ "scope": "Consumer plans (Free, Pro and Max), as described in Anthropic's privacy policy, privacy center and help center.",
+ "reviewed": "2026-11-10",
+ "documents": {
+  "privacy": {"title": "Anthropic Privacy Policy", "url": "https://www.anthropic.com/legal/privacy"},
+  "training": {"title": "Is my data used for model training? (consumer products)", "url": "https://privacy.claude.com/en/articles/10023580-is-my-data-used-for-model-training"},
+  "retention": {"title": "How long do you store my data?", "url": "https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data"},
+  "settings": {"title": "How do I change my model improvement privacy settings?", "url": "https://privacy.claude.com/en/articles/12109829-how-do-i-change-my-model-improvement-privacy-settings"},
+  "protection": {"title": "How does Anthropic protect the personal data of Claude users?", "url": "https://privacy.claude.com/en/articles/10458704-how-does-anthropic-protect-the-personal-data-of-claude-users"},
+  "incognito": {"title": "Using incognito chats", "url": "https://support.claude.com/en/articles/12260368-using-incognito-chats"},
+  "commercial": {"title": "Is my data used for model training? (commercial products)", "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training"},
+  "ads": {"title": "Claude is a space to think (company announcement)", "url": "https://www.anthropic.com/news/claude-is-a-space-to-think"}
+ },
+ "answers": {
+  "training": {
+   "answer": "on_with_setting",
+   "summary": "Anthropic's privacy policy says it may use your inputs and outputs to train its models unless you opt out in your account settings. A privacy setting called \"Help improve our AI models\" turns this off.",
+   "evidence": [
+    {"doc": "privacy", "quote": "We may use your Inputs and Outputs to train and improve Anthropic AI models, unless you opt out through your account settings."},
+    {"doc": "settings", "quote": "Under Help Improve our AI models, click the button to toggle it off/on"},
+    {"doc": "privacy", "quote": "Even if you opt-out, we will use Inputs and Outputs for model improvement when: (i) your conversations are flagged for safety review to improve our ability to detect harmful content, enforce our policies, or advance AI safety research, or (ii) you've explicitly reported the materials to us (for example via our feedback mechanisms)."}
+   ],
+   "note": "Anthropic says chats flagged for safety review, and chats you report through feedback, may be used for model improvement even after you opt out."
+  },
+  "retention": {
+   "answer": "specific",
+   "summary": "Anthropic says deleted chats leave its back-end storage within 30 days. If you allow training, it says it may keep de-identified data for up to 5 years. It says chats flagged for policy violations are kept for up to 2 years.",
+   "evidence": [
+    {"doc": "retention", "quote": "Deleted from our back-end storage systems within 30 days"},
+    {"doc": "retention", "quote": "If you allow us to use your chats or coding sessions to improve Claude, we may retain your data in a de-identified format for up to 5 years in our model training pipelines."},
+    {"doc": "retention", "quote": "We retain inputs and outputs for up to 2 years and trust and safety classification scores for up to 7 years if your chat or session is flagged by our automated trust and safety systems as violating our Usage Policy."}
+   ]
+  },
+  "deletion": {
+   "answer": "self_serve_timed",
+   "summary": "Anthropic says you can delete individual chats, which leave your history at once and its back-end within 30 days.",
+   "evidence": [
+    {"doc": "privacy", "quote": "You also are able to delete individual conversations, which will be removed immediately from your conversation history and automatically deleted from our back-end within 30 days."}
+   ]
+  },
+  "human_review": {
+   "answer": "limited",
+   "summary": "Anthropic says its employees cannot access your chats by default, with two stated exceptions: feedback you choose to send, and review needed to enforce its usage policy.",
+   "evidence": [
+    {"doc": "protection", "quote": "Limited Access: By default, Anthropic employees cannot access your conversations unless:"},
+    {"doc": "protection", "quote": "You explicitly consent to share your data with us as a part of giving us feedback"},
+    {"doc": "protection", "quote": "Review is needed to enforce our Usage Policy."}
+   ]
+  },
+  "ads_sale": {
+   "answer": "no_sale_no_ads",
+   "summary": "Anthropic says it does not sell personal data, and has announced that Claude will stay free of advertising. Its privacy policy says it may share personal data to advertise its own products, with an opt-out.",
+   "evidence": [
+    {"doc": "privacy", "quote": "Anthropic does not “sell” your personal data as that term is defined by applicable laws and regulations."},
+    {"doc": "ads", "quote": "So we’ve made a choice: Claude will remain ad-free."},
+    {"doc": "privacy", "quote": "You can opt-out of sharing your personal data for targeted advertising to promote our products and services, and we will honor global privacy controls."}
+   ]
+  },
+  "private_mode": {
+   "answer": "yes_retention_stated",
+   "summary": "Incognito chats are not saved to your history and are not used for training. Anthropic says they are retained for 30 days by default.",
+   "evidence": [
+    {"doc": "incognito", "quote": "Incognito chats are temporary conversations that aren't saved to your chat history or to Claude’s memory."},
+    {"doc": "incognito", "quote": "Incognito chats are not used for training."},
+    {"doc": "incognito", "quote": "While incognito chats aren't saved to your chat history, they are retained for either 30 days (default), or longer in accordance with your organization's custom data retention setting (available for Enterprise plans)."}
+   ]
+  },
+  "transparency": {
+   "answer": "dated_with_history",
+   "summary": "The policy shows its effective date and points to a summary of changes and previous versions.",
+   "evidence": [
+    {"doc": "privacy", "quote": "Effective Sep 10, 2026"},
+    {"doc": "privacy", "quote": "You can view a summary of privacy policy changes and previous versions in our Privacy Center."}
+   ]
+  }
+ },
+ "facts": {
+  "business": {
+   "summary": "Anthropic says inputs and outputs from its commercial products are not used to train its models by default.",
+   "evidence": [
+    {"doc": "commercial", "quote": "By default, we will not use your inputs or outputs from our commercial products (e.g. Claude for Work, Anthropic API, Claude Gov, etc.) to train our models."}
+   ]
+  },
+  "location": {
+   "summary": "Anthropic says personal data is transferred to its servers in the United States or other countries.",
+   "evidence": [
+    {"doc": "privacy", "quote": "Anthropic is a global company, and when you access our Services, your personal data is transferred to our servers in the US, or to other countries outside the European Economic Area (“EEA”) and the UK for the purposes outlined in Section 2 of this Privacy Policy"}
+   ]
+  },
+  "age": {
+   "summary": "Not for anyone under 18.",
+   "evidence": [
+    {"doc": "privacy", "quote": "Our Services are not directed towards, and we do not knowingly collect, use, disclose, sell, or share any information from children under the age of 18."}
+   ]
+  }
+ },
+ "opt_out": {
+  "summary": "Turn off \"Help improve our AI models\" in Claude's privacy settings.",
+  "steps": [
+   "Open Settings from the menu under your name.",
+   "Select Privacy.",
+   "Under \"Help improve our AI models\", switch the setting off."
+  ],
+  "evidence": [
+   {"doc": "settings", "quote": "Under Help Improve our AI models, click the button to toggle it off/on"},
+   {"doc": "settings", "quote": "If you decide to turn off the model training setting, we will not use any new chats and coding sessions you have with Claude for future model training."},
+   {"doc": "settings", "quote": "Your data will still be included in model training that has already started and in models that have already been trained"}
+  ],
+  "caveats": [
+   "Anthropic says data already used in training that has started, or in models already trained, stays in them.",
+   "Chats flagged for safety review, and chats you report through feedback, may still be used."
+  ]
+ }
+}

@@ -1,0 +1,169 @@
+{
+ "slug": "mistral",
+ "name": "Mistral Vibe",
+ "maker": "Mistral AI",
+ "kind": "Chat assistant (formerly Le Chat)",
+ "scope": "Vibe, Mistral AI's chat assistant (formerly Le Chat), on Free, Pro and Student plans, as described in Mistral AI's privacy policy and help center. Enterprise plans follow different terms.",
+ "reviewed": "2026-11-22",
+ "documents": {
+  "privacy": {
+   "title": "Mistral AI Privacy Policy",
+   "url": "https://legal.mistral.ai/terms/privacy-policy"
+  },
+  "training": {
+   "title": "Do you use my user data to train your Artificial Intelligence models?",
+   "url": "https://help.mistral.ai/en/articles/347617-do-you-use-my-user-data-to-train-your-artificial-intelligence-models"
+  },
+  "opt-out": {
+   "title": "Can I opt out of my input or output data being used for training?",
+   "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training"
+  },
+  "delete": {
+   "title": "Can I delete a chat conversation?",
+   "url": "https://help.mistral.ai/en/articles/347613-can-i-delete-a-chat-conversation"
+  },
+  "product": {
+   "title": "Vibe product page",
+   "url": "https://mistral.ai/products/vibe"
+  }
+ },
+ "answers": {
+  "training": {
+   "answer": "on_with_setting",
+   "summary": "Mistral AI says input and output data on Vibe's individual plans are used by default to train its models, unless you opt out. A privacy setting turns this off.",
+   "evidence": [
+    {
+     "doc": "training",
+     "quote": "Input and output data are used by default to train our artificial intelligence models, unless you opt out of training at any time."
+    },
+    {
+     "doc": "opt-out",
+     "quote": "Under the Privacy section, disable the toggle labelled Allow your interactions to be used to train our models."
+    },
+    {
+     "doc": "training",
+     "quote": "Exception for Labs and Public Preview models: the training opt-out does not apply to Labs and Public Preview models, whichever subscription plan you adhere to."
+    }
+   ],
+   "note": "Mistral AI says the opt-out does not apply to its Labs and Public Preview models, and that feedback you send with a thumbs up or down may be used to improve its models."
+  },
+  "retention": {
+   "answer": "specific",
+   "summary": "Mistral AI says it keeps your Vibe inputs and outputs until you delete the conversation or your account.",
+   "evidence": [
+    {
+     "doc": "privacy",
+     "quote": "Data we use to provide Vibe to you: we keep your Input and Output until you delete your account or until you delete the conversation from Vibe."
+    }
+   ]
+  },
+  "deletion": {
+   "answer": "self_serve",
+   "summary": "Mistral AI says you can delete a conversation at any time. It says data may stay in its back-end systems for different periods after you delete it, without stating a removal time for conversations.",
+   "evidence": [
+    {
+     "doc": "delete",
+     "quote": "However, you can delete a chat conversation, in its entirety and at any time by following this simple process:"
+    },
+    {
+     "doc": "delete",
+     "quote": "Even after your manual deletion on your end, we may retain different types of data in our backend systems for different amounts of time, as specified in our Privacy Policy and/or your Data Protection Agreement with us."
+    }
+   ]
+  },
+  "human_review": {
+   "answer": "not_stated",
+   "summary": "The documents we read do not say when people at Mistral AI may read your conversations. The privacy policy says authorized team members may access personal data to perform their jobs.",
+   "evidence": [
+    {
+     "doc": "privacy",
+     "quote": "Authorized members of our teams who need to access your personal data, strictly to perform their jobs"
+    }
+   ]
+  },
+  "ads_sale": {
+   "answer": "no_sale_no_ads",
+   "summary": "Mistral AI says it has not sold or shared consumers' personal data, or used it for targeted advertising, in the preceding 12 months.",
+   "evidence": [
+    {
+     "doc": "privacy",
+     "quote": "Mistral AI has not “sold,” “shared,” or engaged in “targeted advertising” with (as those terms are defined under U.S. state privacy laws) any personal data of consumers in the preceding 12 months, including of any consumer that we know is under 18 years old."
+    }
+   ]
+  },
+  "private_mode": {
+   "answer": "none",
+   "summary": "The documents we read describe no temporary or no-history chat mode for Vibe.",
+   "evidence": []
+  },
+  "transparency": {
+   "answer": "dated_with_history",
+   "summary": "The policy shows its effective date. A Versions menu on the page lists earlier versions; when we opened it on 2026-11-22 it went back to November 2025.",
+   "evidence": [
+    {
+     "doc": "privacy",
+     "quote": "Effective: September 3, 2026"
+    },
+    {
+     "doc": "privacy",
+     "quote": "Versions"
+    }
+   ]
+  }
+ },
+ "facts": {
+  "business": {
+   "summary": "Mistral AI says Enterprise customers are opted out of training by default.",
+   "evidence": [
+    {
+     "doc": "training",
+     "quote": "Enterprise customers are opted out of training by default."
+    }
+   ]
+  },
+  "location": {
+   "summary": "Mistral AI is a French company with its registered office in Paris.",
+   "evidence": [
+    {
+     "doc": "privacy",
+     "quote": "Mistral AI is a French company incorporated in Paris"
+    }
+   ]
+  },
+  "name": {
+   "summary": "Mistral AI says Le Chat is now called Vibe, and that conversations, settings and plans carry over.",
+   "evidence": [
+    {
+     "doc": "product",
+     "quote": "Le Chat is now Vibe. All your conversations, settings, and plans carry over."
+    }
+   ]
+  }
+ },
+ "opt_out": {
+  "summary": "Turn off \"Allow your interactions to be used to train our models\" in Vibe's privacy settings, or untick \"Enable data sharing\" in the mobile app.",
+  "steps": [
+   "On the web, open your settings and select Vibe under Manage.",
+   "Under Privacy, turn off \"Allow your interactions to be used to train our models\".",
+   "In the mobile app, open Settings, then Data & Account Controls, and untick \"Enable data sharing\"."
+  ],
+  "evidence": [
+   {
+    "doc": "opt-out",
+    "quote": "Under the Privacy section, disable the toggle labelled Allow your interactions to be used to train our models."
+   },
+   {
+    "doc": "opt-out",
+    "quote": "In the Data & Account Controls panel, deselect the Enable data sharing checkbox to opt out of Mistral’s training program."
+   },
+   {
+    "doc": "opt-out",
+    "quote": "Once the opt-out is confirmed, Mistral no longer uses your input or output data for the purpose of training its models."
+   }
+  ],
+  "caveats": [
+   "Mistral AI says the opt-out does not apply to Labs and Public Preview models.",
+   "Rating a response with a thumbs up or down and adding a comment allows Mistral AI to use that exchange to improve its models."
+  ]
+ }
+}

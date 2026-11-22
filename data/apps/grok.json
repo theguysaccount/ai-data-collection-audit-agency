@@ -1,0 +1,107 @@
+{
+ "slug": "grok",
+ "name": "Grok",
+ "maker": "SpaceXSI",
+ "kind": "Chat assistant",
+ "scope": "The Grok mobile app and the Grok.com website with a signed-in account, as described in the company's privacy policy and consumer FAQ. Grok inside X follows X's settings and help pages.",
+ "reviewed": "2026-11-22",
+ "documents": {
+  "privacy": {"title": "Grok Privacy Policy", "url": "https://x.ai/legal/privacy-policy"},
+  "faq": {"title": "Grok Consumer FAQs", "url": "https://x.ai/legal/faq"}
+ },
+ "answers": {
+  "training": {
+   "answer": "on_with_setting",
+   "summary": "The company says it may use your prompts and Grok's responses to train its models. A setting called \"Improve the model\" controls this for new conversations.",
+   "evidence": [
+    {"doc": "faq", "quote": "We may use your content and interactions with Grok (e.g., prompts, searches, and other materials you submit) along with Grok's responses to train our models."},
+    {"doc": "faq", "quote": "Once you select that your data should not be used for training, your new conversations will not be used to train our models."},
+    {"doc": "faq", "quote": "As a result, in some regions (excluding the EU/UK), when you use Grok without logging in, you won’t have the option to opt out of model training."}
+   ],
+   "note": "The FAQ says people who use Grok without logging in cannot opt out in some regions, and that feedback you send after opting out may still be used for training."
+  },
+  "retention": {
+   "answer": "specific",
+   "summary": "The FAQ says you can keep conversations in your account as long as you wish, and that deleted conversations are removed from the company's systems within 30 days, with stated exceptions.",
+   "evidence": [
+    {"doc": "faq", "quote": "You can keep your data on your SpaceXSI account for as long as you wish."},
+    {"doc": "faq", "quote": "If you delete conversations from your account or if you use Private Chat, conversations will be removed from our systems within 30 days, unless they have been de-identified or pseudoanonymized and disassociated from your account or we have to retain them for safety, security, or legal reasons."}
+   ]
+  },
+  "deletion": {
+   "answer": "self_serve_timed",
+   "summary": "The FAQ says you can delete single conversations, all conversations or your account, and that deletion takes up to 30 days.",
+   "evidence": [
+    {"doc": "faq", "quote": "At any time, you can choose to delete selected conversations or all of your conversation history."},
+    {"doc": "faq", "quote": "After you indicate that you want your data deleted, it will take up to 30 days to delete from SpaceXSI systems."}
+   ]
+  },
+  "human_review": {
+   "answer": "routine",
+   "summary": "The FAQ says a limited number of authorized personnel may review conversations for purposes that include improving model performance.",
+   "evidence": [
+    {"doc": "faq", "quote": "A limited number of our authorized personnel may review your conversations with Grok for specific business purposes, including improving model performance, investigating security incidents and potential misuse of our services, and complying with our legal obligations."}
+   ]
+  },
+  "ads_sale": {
+   "answer": "not_stated",
+   "summary": "The documents we read do not say whether personal data is sold. The privacy policy says cookies and similar technologies may be used to deliver targeted advertising.",
+   "evidence": [
+    {"doc": "privacy", "quote": "Deliver relevant content and targeted advertising;"}
+   ]
+  },
+  "private_mode": {
+   "answer": "yes_retention_stated",
+   "summary": "Private Chat keeps conversations out of your history and out of model training. The company says they are deleted from its systems within 30 days.",
+   "evidence": [
+    {"doc": "faq", "quote": "When using Private Chat, your conversation history will not be viewable to you and will be deleted from SpaceXSI systems within 30 days."},
+    {"doc": "faq", "quote": "When using Private Chat, where available, your content and interactions are not used for model training."}
+   ]
+  },
+  "transparency": {
+   "answer": "dated_with_history",
+   "summary": "The policy shows the date it was last updated and links to the previous version.",
+   "evidence": [
+    {"doc": "privacy", "quote": "Last Updated: October 27, 2026 (previous version)"}
+   ]
+  }
+ },
+ "facts": {
+  "name": {
+   "summary": "The FAQ names the company SpaceX Super Intelligence LLC (SpaceXSI) and says it is separate from X Corp.",
+   "evidence": [
+    {"doc": "faq", "quote": "SpaceXSI is a separate company from X Corp. (\"X\", previously Twitter)."}
+   ]
+  },
+  "business": {
+   "summary": "The FAQ says content from business and enterprise customers is not used to improve the company's models.",
+   "evidence": [
+    {"doc": "faq", "quote": "Similarly, we do not use content from our business and enterprise customers to improve our models."}
+   ]
+  },
+  "age": {
+   "summary": "At least 13. Teenagers aged 13 to 17 need a parent or legal guardian's permission.",
+   "evidence": [
+    {"doc": "faq", "quote": "You must confirm that you are at least 13 years old to use Grok."}
+   ]
+  }
+ },
+ "opt_out": {
+  "summary": "Turn off \"Improve the model\" in Grok's data controls, on the app and on Grok.com.",
+  "steps": [
+   "In the mobile app, go to Settings, then Data Controls, and deselect \"Improve the model\".",
+   "On Grok.com, go to Settings, then Data, and turn off \"Improve the Model\".",
+   "If you use Grok inside X, follow the X Help Center's instructions instead."
+  ],
+  "evidence": [
+   {"doc": "faq", "quote": "On the mobile app, to select or deselect using your content for model training, go to Settings, Data Controls, and select or deselect “Improve the model.”"},
+   {"doc": "faq", "quote": "For the Grok.com website, you can go to Settings, Data, and then “Improve the Model” to select whether your content is used for model training."},
+   {"doc": "faq", "quote": "Please note that, even if you opt out of model training, when you subsequently decide to voluntarily provide feedback, that feedback may be used for training purposes."}
+  ],
+  "caveats": [
+   "Opting out covers new conversations.",
+   "Feedback you send after opting out may still be used for training.",
+   "Logged-out use cannot be opted out in some regions."
+  ]
+ }
+}

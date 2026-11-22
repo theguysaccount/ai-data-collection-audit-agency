@@ -1,0 +1,26 @@
+[
+ {
+  "name": "Meta AI",
+  "maker": "Meta",
+  "url": "https://www.facebook.com/privacy/genai/",
+  "reason": "Meta's robots.txt tells automated readers not to fetch these privacy pages, and this project follows robots.txt."
+ },
+ {
+  "name": "Poe",
+  "maker": "Quora",
+  "url": "https://poe.com/privacy",
+  "reason": "Poe's robots.txt tells automated readers not to fetch any page, and this project follows robots.txt."
+ },
+ {
+  "name": "Pi",
+  "maker": "Inflection AI",
+  "url": "https://pi.ai/policy",
+  "reason": "pi.ai does not show its robots.txt to automated readers, and the newest Internet Archive copy of its policy is too old to use."
+ },
+ {
+  "name": "Character.AI",
+  "maker": "Character Technologies",
+  "url": "https://policies.character.ai/privacy",
+  "reason": "The policy page is assembled in the browser by scripts, so a plain reader receives no policy text to quote or monitor."
+ }
+]

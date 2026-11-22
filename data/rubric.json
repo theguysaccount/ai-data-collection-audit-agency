@@ -1,0 +1,233 @@
+{
+ "version": "1.0",
+ "published": "2026-11-10",
+ "scope": "Each scorecard covers the provider's consumer product on a free or personal paid plan, as described in the documents the provider publishes for readers in the United States. Business, education and API terms are noted separately and are not scored.",
+ "criteria": [
+  {
+   "id": "training",
+   "label": "Training on your chats",
+   "question": "Are your chats used to train AI models by default?",
+   "why": "Content used for training can shape what a model later produces, and it is hard to take back once a model has been trained on it.",
+   "answers": [
+    {
+     "id": "off_by_default",
+     "points": 3,
+     "label": "Off by default",
+     "definition": "The documents say your chats are not used to train models unless you choose to allow it."
+    },
+    {
+     "id": "on_with_setting",
+     "points": 2,
+     "label": "On by default, setting to turn it off",
+     "definition": "The documents say your chats may be used to train models, and describe a setting in the product that turns this off."
+    },
+    {
+     "id": "on_with_request",
+     "points": 1,
+     "label": "On by default, opt-out by request",
+     "definition": "The documents say your chats may be used to train models. Opting out takes a form, an email or a legal-rights request, or is offered only to some users or regions."
+    },
+    {
+     "id": "on_no_opt_out",
+     "points": 0,
+     "label": "On by default, no opt-out described",
+     "definition": "The documents say your chats may be used to train models and describe no way to opt out."
+    },
+    {
+     "id": "not_stated",
+     "points": 0,
+     "label": "Not stated",
+     "definition": "The documents we read do not say whether chats are used to train models."
+    }
+   ],
+   "page_question": "Does {app} use your chats to train AI models by default?"
+  },
+  {
+   "id": "retention",
+   "label": "How long chats are kept",
+   "question": "Do the documents say how long your chats are kept?",
+   "why": "You can only weigh the risk of sharing something if you know how long it stays on the provider's systems.",
+   "answers": [
+    {
+     "id": "specific",
+     "points": 2,
+     "label": "Specific period or rule",
+     "definition": "The documents state a specific period or rule for chats, such as a number of days or months, or \"until you delete them\"."
+    },
+    {
+     "id": "general",
+     "points": 1,
+     "label": "General wording only",
+     "definition": "The documents describe retention only in general terms, such as \"as long as necessary\"."
+    },
+    {
+     "id": "not_stated",
+     "points": 0,
+     "label": "Not stated",
+     "definition": "The documents we read do not say how long chats are kept."
+    }
+   ],
+   "page_question": "How long does {app} keep your chats?"
+  },
+  {
+   "id": "deletion",
+   "label": "Deleting your chats",
+   "question": "Can you delete your chats, and do the documents say how long removal takes?",
+   "why": "A delete button means more when the provider also says when the data leaves its systems.",
+   "answers": [
+    {
+     "id": "self_serve_timed",
+     "points": 2,
+     "label": "Delete it yourself, removal time stated",
+     "definition": "The documents say you can delete chats yourself and state how long removal from the provider's systems takes."
+    },
+    {
+     "id": "self_serve",
+     "points": 1,
+     "label": "Deletion available, no removal time",
+     "definition": "The documents say you can delete chats, yourself or by request, without stating how long removal takes."
+    },
+    {
+     "id": "not_stated",
+     "points": 0,
+     "label": "Not stated",
+     "definition": "The documents we read do not describe deleting chats."
+    }
+   ],
+   "page_question": "Can you delete your {app} chats, and how fast are they removed?"
+  },
+  {
+   "id": "human_review",
+   "label": "People reading your chats",
+   "question": "Do the documents say when people at the company may read your chats?",
+   "why": "Automated processing and a person reading your words are different things, and many people decide what to share based on the second.",
+   "answers": [
+    {
+     "id": "limited",
+     "points": 2,
+     "label": "Limited to stated cases",
+     "definition": "The documents limit access by people to stated cases, such as safety or policy enforcement, legal requirements, support you ask for or feedback you send, or say chats are reviewed only if you allow it."
+    },
+    {
+     "id": "routine",
+     "points": 1,
+     "label": "May be reviewed to improve the service",
+     "definition": "The documents say reviewers may read chats, or samples of them, by default for purposes that include improving the service or its models."
+    },
+    {
+     "id": "not_stated",
+     "points": 0,
+     "label": "Not stated",
+     "definition": "The documents we read do not say whether people may read chats."
+    }
+   ],
+   "page_question": "Can people at {maker} read your {app} chats?"
+  },
+  {
+   "id": "ads_sale",
+   "label": "Sale and advertising",
+   "question": "Do the documents say whether your data is sold or used to target ads?",
+   "why": "Advertising and data sales are the most common ways personal data leaves the service you gave it to.",
+   "answers": [
+    {
+     "id": "no_sale_no_ads",
+     "points": 2,
+     "label": "Not sold, not used for ads",
+     "definition": "The documents say personal data is not sold, and say chats are not used to target advertising or that the product has no advertising."
+    },
+    {
+     "id": "no_sale_ads",
+     "points": 1,
+     "label": "Not sold, may be used for ads",
+     "definition": "The documents say personal data is not sold, and say personal data may be used or shared to personalize advertising."
+    },
+    {
+     "id": "sold",
+     "points": 0,
+     "label": "Sold",
+     "definition": "The documents say personal data is sold."
+    },
+    {
+     "id": "not_stated",
+     "points": 0,
+     "label": "Sale not addressed",
+     "definition": "The documents we read do not say whether personal data is sold."
+    }
+   ],
+   "page_question": "Does {maker} sell your data or use it for ads?"
+  },
+  {
+   "id": "private_mode",
+   "label": "No-history mode",
+   "question": "Is there a mode that keeps a chat out of your history and out of training?",
+   "why": "A temporary mode lets you ask a sensitive question without changing your settings for everything else.",
+   "answers": [
+    {
+     "id": "yes_retention_stated",
+     "points": 2,
+     "label": "Yes, with stated retention",
+     "definition": "The documents describe a mode in which chats are not saved to your history and not used for training, and state how long such chats are kept. Products that do not keep chats on the provider's servers by default also receive this answer."
+    },
+    {
+     "id": "yes",
+     "points": 1,
+     "label": "Yes, details limited",
+     "definition": "The documents describe such a mode without stating how long those chats are kept, or the mode covers history but not training."
+    },
+    {
+     "id": "none",
+     "points": 0,
+     "label": "None described",
+     "definition": "The documents we read describe no such mode."
+    }
+   ],
+   "page_question": "Does {app} have a temporary chat mode?"
+  },
+  {
+   "id": "transparency",
+   "label": "Dated policy and past versions",
+   "question": "Is the privacy policy dated, and does the provider publish past versions?",
+   "why": "A date and an archive let anyone see what changed and when, without relying on a third party.",
+   "answers": [
+    {
+     "id": "dated_with_history",
+     "points": 2,
+     "label": "Dated, past versions published",
+     "definition": "The privacy policy shows an effective or updated date, and the provider links to previous versions or a change log."
+    },
+    {
+     "id": "dated",
+     "points": 1,
+     "label": "Dated, no past versions found",
+     "definition": "The privacy policy shows an effective or updated date. We found no link to previous versions or a change log in the documents we read."
+    },
+    {
+     "id": "undated",
+     "points": 0,
+     "label": "No date found",
+     "definition": "We found no effective or updated date on the privacy policy."
+    }
+   ],
+   "page_question": "Does {maker} date its privacy policy and publish past versions?"
+  }
+ ],
+ "facts": [
+  {
+   "id": "name",
+   "label": "Product name"
+  },
+  {
+   "id": "business",
+   "label": "Business and API plans"
+  },
+  {
+   "id": "location",
+   "label": "Where data is processed"
+  },
+  {
+   "id": "age",
+   "label": "Minimum age"
+  }
+ ],
+ "opt_out_question": "How do you stop {app} from training on your chats?"
+}

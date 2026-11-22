@@ -1,0 +1,189 @@
+{
+ "slug": "chatgpt",
+ "name": "ChatGPT",
+ "maker": "OpenAI",
+ "kind": "Chat assistant",
+ "scope": "Personal plans (Free, Go, Plus and Pro), as described in OpenAI's United States privacy policy and help center.",
+ "reviewed": "2026-11-10",
+ "documents": {
+  "privacy": {
+   "title": "OpenAI Privacy Policy (United States)",
+   "url": "https://openai.com/policies/privacy-policy/"
+  },
+  "training": {
+   "title": "How your data is used to improve model performance",
+   "url": "https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance"
+  },
+  "controls": {
+   "title": "Data controls in ChatGPT",
+   "url": "https://help.openai.com/en/articles/7730893-data-controls-faq"
+  },
+  "consumer-faq": {
+   "title": "Data usage for consumer services FAQ",
+   "url": "https://help.openai.com/en/articles/7039943-data-usage-for-consumer-services-faq"
+  },
+  "temporary": {
+   "title": "Temporary Chat FAQ",
+   "url": "https://help.openai.com/en/articles/8914046-temporary-chat-faq"
+  }
+ },
+ "answers": {
+  "training": {
+   "answer": "on_with_setting",
+   "summary": "OpenAI says it may use content from personal plans to train its models. A setting called \"Improve the model for everyone\" turns this off for new chats.",
+   "evidence": [
+    {
+     "doc": "training",
+     "quote": "When you use our services for individuals (Free, Plus, Pro), we may use your content to train our models."
+    },
+    {
+     "doc": "training",
+     "quote": "To opt out, turn off Improve the model for everyone under Settings > Data controls in ChatGPT, or select Do not train on my content in our Privacy Portal."
+    }
+   ],
+   "note": "OpenAI says that if you send feedback on a response, such as a thumbs up or down, the whole conversation may be used for training even after you opt out."
+  },
+  "retention": {
+   "answer": "specific",
+   "summary": "OpenAI says chats stay until you delete them, and that deleted data is removed from its systems within 30 days, with stated exceptions for safety, security and legal reasons.",
+   "evidence": [
+    {
+     "doc": "privacy",
+     "quote": "Information we retain until you delete it: Some of our Services allow you to delete Personal Data stored in your account."
+    },
+    {
+     "doc": "privacy",
+     "quote": "Once you choose to delete Personal Data, we will remove it from our systems within 30 days unless we need to retain it for longer as described below"
+    }
+   ]
+  },
+  "deletion": {
+   "answer": "self_serve_timed",
+   "summary": "OpenAI says you can delete single chats, all chats or your account, and gives 30 days as the removal time.",
+   "evidence": [
+    {
+     "doc": "privacy",
+     "quote": "For example, you can delete specific, or all, of your ChatGPT conversations"
+    },
+    {
+     "doc": "privacy",
+     "quote": "Once you choose to delete Personal Data, we will remove it from our systems within 30 days unless we need to retain it for longer as described below"
+    }
+   ]
+  },
+  "human_review": {
+   "answer": "routine",
+   "summary": "OpenAI lists four reasons authorized staff and service providers may access content. One of them is improving model performance, unless you have opted out of training.",
+   "evidence": [
+    {
+     "doc": "consumer-faq",
+     "quote": "A limited number of authorized OpenAI personnel, as well as trusted service providers that are subject to confidentiality and security obligations, may access user content only as needed for these reasons: (1) investigating abuse or a security incident; (2) to provide support to you if you reach out to us with questions about your account, or to troubleshoot issues affecting the product experience; (3) to handle legal matters; or (4) to improve model performance (unless you have opted out)."
+    }
+   ]
+  },
+  "ads_sale": {
+   "answer": "no_sale_ads",
+   "summary": "OpenAI says it does not sell personal data. It says it personalizes ads for Free and Go users, subject to their settings, and may share limited data with marketing partners to promote its own products.",
+   "evidence": [
+    {
+     "doc": "privacy",
+     "quote": "We don’t “sell” Personal Data."
+    },
+    {
+     "doc": "privacy",
+     "quote": "For Free and Go users, to personalize the ads you see on our Services (subject to your settings), and to measure the effectiveness of ads shown on our Services."
+    },
+    {
+     "doc": "privacy",
+     "quote": "Depending upon your choices, we may share limited data with select marketing partners for purposes of promoting our products and services to you on third-party properties."
+    }
+   ]
+  },
+  "private_mode": {
+   "answer": "yes_retention_stated",
+   "summary": "Temporary Chat keeps a chat out of your history and out of model training. OpenAI says it may keep a copy for up to 30 days for safety purposes.",
+   "evidence": [
+    {
+     "doc": "temporary",
+     "quote": "Temporary Chats won’t appear in your history unless you choose to save them."
+    },
+    {
+     "doc": "temporary",
+     "quote": "A Temporary Chat won’t be used to improve our models while it remains temporary."
+    },
+    {
+     "doc": "temporary",
+     "quote": "For safety purposes we may still keep a copy for up to 30 days."
+    }
+   ]
+  },
+  "transparency": {
+   "answer": "dated_with_history",
+   "summary": "The policy shows the date it was updated and links to the previous version.",
+   "evidence": [
+    {
+     "doc": "privacy",
+     "quote": "Updated: September 10, 2026"
+    },
+    {
+     "doc": "privacy",
+     "quote": "Previous version"
+    }
+   ]
+  }
+ },
+ "facts": {
+  "business": {
+   "summary": "OpenAI says content from its business products and API is not used to improve its models by default.",
+   "evidence": [
+    {
+     "doc": "training",
+     "quote": "By default, we don’t use inputs or outputs from ChatGPT Business, ChatGPT Enterprise, ChatGPT Edu, or our API to improve our models."
+    }
+   ]
+  },
+  "age": {
+   "summary": "Not for children under 13. Users under 18 need a parent or guardian's permission.",
+   "evidence": [
+    {
+     "doc": "privacy",
+     "quote": "Our Services are not directed to, or intended for, children under 13."
+    },
+    {
+     "doc": "privacy",
+     "quote": "Users under 18 must have permission from their parent or guardian to use our Services."
+    }
+   ]
+  }
+ },
+ "opt_out": {
+  "summary": "Turn off \"Improve the model for everyone\" in ChatGPT's settings, or use OpenAI's Privacy Portal.",
+  "steps": [
+   "Open your account menu and select Settings.",
+   "Select Data controls.",
+   "Select \"Improve the model for everyone\" and turn it off."
+  ],
+  "evidence": [
+   {
+    "doc": "controls",
+    "quote": "Select Improve the model for everyone, turn it off, and select Done."
+   },
+   {
+    "doc": "controls",
+    "quote": "When Improve the model for everyone is off, your new conversations won’t be used to train OpenAI models."
+   },
+   {
+    "doc": "controls",
+    "quote": "Turning off Improve the model for everyone does not delete or hide saved chats."
+   },
+   {
+    "doc": "training",
+    "quote": "If you choose to provide feedback, the entire conversation associated with that feedback may be used to train our models."
+   }
+  ],
+  "caveats": [
+   "The setting covers new conversations. It does not delete saved chats.",
+   "Sending feedback on a response can still allow that conversation to be used for training."
+  ]
+ }
+}

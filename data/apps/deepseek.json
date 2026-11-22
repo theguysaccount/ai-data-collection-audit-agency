@@ -1,0 +1,92 @@
+{
+ "slug": "deepseek",
+ "name": "DeepSeek",
+ "maker": "Hangzhou DeepSeek Artificial Intelligence",
+ "kind": "Chat assistant",
+ "scope": "The DeepSeek app and website, as described in DeepSeek's English-language privacy policy and its model training disclosure.",
+ "reviewed": "2026-11-10",
+ "documents": {
+  "privacy": {"title": "DeepSeek Privacy Policy", "url": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html"},
+  "training": {"title": "Model Mechanism and Training Methods of DeepSeek", "url": "https://cdn.deepseek.com/policies/en-US/model-algorithm-disclosure.html"}
+ },
+ "answers": {
+  "training": {
+   "answer": "on_with_request",
+   "summary": "DeepSeek says it uses personal data, which includes your inputs, to train and improve its models. Its documents list a right to opt out and give an email address for requests; they describe no setting in the product.",
+   "evidence": [
+    {"doc": "privacy", "quote": "To improve and develop the Services and to train and improve our technology, such as our machine learning models and algorithms."},
+    {"doc": "privacy", "quote": "the right to opt-out of using your Personal Data for training our models or optimizing our technologies."},
+    {"doc": "privacy", "quote": "To exercise your rights, you or an authorized agent may submit a request by emailing us at privacy@deepseek.com."},
+    {"doc": "training", "quote": "These question-answer pairs are produced by our research team, with a small portion potentially based on user input."}
+   ],
+   "note": "The policy says the rights it lists depend on where you live."
+  },
+  "retention": {
+   "answer": "specific",
+   "summary": "DeepSeek says it keeps the data used to provide the service, including your inputs, for as long as you have an account.",
+   "evidence": [
+    {"doc": "privacy", "quote": "For example, when we process your Personal Data to provide you with the Services, we keep this Personal Data for as long as you have an account. This Personal Data includes your account Personal Data, input and payment Personal Data."}
+   ]
+  },
+  "deletion": {
+   "answer": "self_serve",
+   "summary": "DeepSeek says you can delete your chat history in settings. The documents we read do not state how long removal takes.",
+   "evidence": [
+    {"doc": "privacy", "quote": "Should you choose to do so, you may also copy or delete your chat history via your settings."}
+   ]
+  },
+  "human_review": {
+   "answer": "not_stated",
+   "summary": "The documents we read do not say whether people at DeepSeek may read your chats.",
+   "evidence": []
+  },
+  "ads_sale": {
+   "answer": "no_sale_no_ads",
+   "summary": "DeepSeek says it does not engage in targeted advertising and does not sell personal data.",
+   "evidence": [
+    {"doc": "privacy", "quote": "NOTE WE DO NOT ENGAGE IN TARGETED ADVERTISING, “SELL” PERSONAL DATA OR USE PERSONAL DATA FOR “PROFILING” OR OTHERWISE ENGAGE IN AUTOMATED PROCESSING OF PERSONAL DATA TO MAKE DECISIONS THAT COULD HAVE LEGAL OR SIMILARLY SIGNIFICANT IMPACT ON YOU OR OTHERS."}
+   ]
+  },
+  "private_mode": {
+   "answer": "none",
+   "summary": "The documents we read describe no temporary or no-history chat mode.",
+   "evidence": []
+  },
+  "transparency": {
+   "answer": "dated",
+   "summary": "The policy shows the date it was last updated. We found no link to previous versions in the documents we read.",
+   "evidence": [
+    {"doc": "privacy", "quote": "Last Update: Feb 10, 2026"}
+   ]
+  }
+ },
+ "facts": {
+  "location": {
+   "summary": "DeepSeek says it collects, processes and stores personal data in the People's Republic of China.",
+   "evidence": [
+    {"doc": "privacy", "quote": "To provide you with our services, we directly collect, process and store your Personal Data in People's Republic of China."}
+   ]
+  },
+  "age": {
+   "summary": "DeepSeek says its services are not aimed at children. The policy gives no single minimum age.",
+   "evidence": [
+    {"doc": "privacy", "quote": "Our Services are not aimed at children, and we do not knowingly process Personal Data from children."}
+   ]
+  }
+ },
+ "opt_out": {
+  "summary": "DeepSeek's documents describe opting out of training as a right exercised by request, and name an email address for it.",
+  "steps": [
+   "Email the address DeepSeek names for privacy requests and ask to opt out of the use of your data for model training.",
+   "Be ready to confirm your identity; DeepSeek says it may ask for information to verify a request."
+  ],
+  "evidence": [
+   {"doc": "privacy", "quote": "To exercise your rights, you or an authorized agent may submit a request by emailing us at privacy@deepseek.com."},
+   {"doc": "privacy", "quote": "After we receive your request, we may verify it by requesting information sufficient to confirm your identity or authority to exercise a right on behalf of someone else."},
+   {"doc": "training", "quote": "Users can query basic service information, opt out of data usage for model training, delete their historical data, and more."}
+  ],
+  "caveats": [
+   "The policy says the rights it lists depend on where you live and are subject to exceptions."
+  ]
+ }
+}

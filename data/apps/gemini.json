@@ -1,0 +1,101 @@
+{
+ "slug": "gemini",
+ "name": "Gemini",
+ "maker": "Google",
+ "kind": "Chat assistant",
+ "scope": "The Gemini app with a personal Google Account, for adults, as described in Google's Gemini Apps Privacy Hub and help pages. Work and school accounts follow different terms.",
+ "reviewed": "2026-11-10",
+ "documents": {
+  "hub": {"title": "Gemini Apps Privacy Hub", "url": "https://support.google.com/gemini/answer/13594961?hl=en"},
+  "activity": {"title": "Manage and delete your Gemini Apps activity", "url": "https://support.google.com/gemini/answer/13278892?hl=en"},
+  "chats": {"title": "Chat with Gemini (temporary chats)", "url": "https://support.google.com/gemini/answer/13275745?hl=en"},
+  "privacy": {"title": "Google Privacy Policy", "url": "https://policies.google.com/privacy?hl=en-US"}
+ },
+ "answers": {
+  "training": {
+   "answer": "on_with_setting",
+   "summary": "Google says the Keep Activity setting is on by default for adults, and that while it is on, chats are used to improve its services, including training generative AI models. Turning the setting off stops this for future chats.",
+   "evidence": [
+    {"doc": "activity", "quote": "If you’re 18 or over, Keep Activity is on by default."},
+    {"doc": "hub", "quote": "Google uses your activity to provide, develop, and improve its services (including training generative AI models), as well as to protect Google, its users, and the public with the help of human reviewers."},
+    {"doc": "hub", "quote": "Your future chats won’t appear in your Activity, and won’t be used to train our AI models, unless you choose to send Google feedback."},
+    {"doc": "hub", "quote": "Your Gemini settings don’t control processing of your chats to create anonymized data to improve Google services."}
+   ],
+   "note": "The same setting controls both saving your chat activity and training use. Google says its settings do not control the processing of chats to create anonymized data."
+  },
+  "retention": {
+   "answer": "specific",
+   "summary": "Google says saved activity is auto-deleted after 18 months by default, adjustable to 3 or 36 months or never. It says chats that human reviewers have looked at are kept for up to three years.",
+   "evidence": [
+    {"doc": "hub", "quote": "Your activity is auto-deleted after 18 months. You can change this to 3 or 36 months, or choose not to auto-delete."},
+    {"doc": "hub", "quote": "Chats reviewed by human reviewers (and related data like your language, device type, location info, or feedback) are not deleted when you delete your activity. Instead, they are retained for up to three years."}
+   ]
+  },
+  "deletion": {
+   "answer": "self_serve",
+   "summary": "Google says you can delete your Gemini chats at any time. The documents we read do not state how long removal from Google's systems takes, and say reviewed chats are not deleted with your activity.",
+   "evidence": [
+    {"doc": "hub", "quote": "You can also manually delete your Gemini Apps chats anytime."},
+    {"doc": "hub", "quote": "Chats reviewed by human reviewers (and related data like your language, device type, location info, or feedback) are not deleted when you delete your activity."}
+   ]
+  },
+  "human_review": {
+   "answer": "routine",
+   "summary": "Google says human reviewers, including service providers, review a subset of chats to help improve its services. Turning off Keep Activity stops future chats from being reviewed for that purpose.",
+   "evidence": [
+    {"doc": "hub", "quote": "A subset of chats are reviewed by human reviewers (including Google’s trained service providers) to help improve Google services."},
+    {"doc": "hub", "quote": "To stop your future chats from being reviewed to improve Google services, turn off your Keep Activity setting."},
+    {"doc": "hub", "quote": "Please don’t enter confidential information that you wouldn’t want a reviewer to see or Google to use to improve our services, including machine-learning technologies."}
+   ]
+  },
+  "ads_sale": {
+   "answer": "no_sale_no_ads",
+   "summary": "Google says Gemini chats are not being used to show you ads, and that it does not sell personal information.",
+   "evidence": [
+    {"doc": "hub", "quote": "Your Gemini Apps chats are not being used to show you ads. If this changes, we will clearly communicate it to you."},
+    {"doc": "privacy", "quote": "Google does not sell your personal information."}
+   ]
+  },
+  "private_mode": {
+   "answer": "yes_retention_stated",
+   "summary": "Temporary chats do not appear in your activity or recent chats and are not used to train Google's AI models. Google says they are retained for 72 hours.",
+   "evidence": [
+    {"doc": "chats", "quote": "You can start a temporary chat that won’t appear in your Gemini Apps Activity or your recent chats."},
+    {"doc": "hub", "quote": "Temporary chats are not used to train Google’s AI models."},
+    {"doc": "hub", "quote": "Temporary chats and chats you have when Keep Activity is off are retained with your account for 72 hours"}
+   ]
+  },
+  "transparency": {
+   "answer": "dated_with_history",
+   "summary": "Google's privacy policy shows its effective date and links to archived versions.",
+   "evidence": [
+    {"doc": "privacy", "quote": "Effective October 16, 2026"},
+    {"doc": "privacy", "quote": "We always indicate the date the last changes were published and we offer access to archived versions for your review."}
+   ]
+  }
+ },
+ "facts": {
+  "business": {
+   "summary": "Google says work and school accounts may be subject to different data handling terms.",
+   "evidence": [
+    {"doc": "hub", "quote": "If you have a work or school Google Account, your use of Gemini Apps may be subject to different data handling terms."}
+   ]
+  }
+ },
+ "opt_out": {
+  "summary": "Turn off Keep Activity in Gemini's activity settings. This also stops chats being saved to your activity.",
+  "steps": [
+   "On a computer, go to gemini.google.com.",
+   "Open Settings & help, then Activity.",
+   "Near the top, choose \"Turn off\" or \"Turn off and delete activity\"."
+  ],
+  "evidence": [
+   {"doc": "activity", "quote": "You can review your prompts, delete your Gemini Apps activity, and turn off Keep Activity in My Activity at any time."},
+   {"doc": "activity", "quote": "Even when Keep Activity is off, your conversations will be saved with your account for up to 72 hours to allow Google to provide the service and process any feedback."}
+  ],
+  "caveats": [
+   "With Keep Activity off, Google says chats are still saved for up to 72 hours.",
+   "Google says some connected apps, such as Google Workspace, are unavailable while Keep Activity is off."
+  ]
+ }
+}

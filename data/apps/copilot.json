@@ -1,0 +1,101 @@
+{
+ "slug": "copilot",
+ "name": "Microsoft Copilot",
+ "maker": "Microsoft",
+ "kind": "Chat assistant",
+ "scope": "The updated Microsoft Copilot app (web, desktop and mobile) used with a personal Microsoft account. Microsoft says its older app follows a separate FAQ, and that work and school accounts follow different terms.",
+ "reviewed": "2026-11-10",
+ "documents": {
+  "activity": {"title": "Microsoft Copilot for individuals: your activity history", "url": "https://support.microsoft.com/en-us/privacy/microsoft-copilot/activity-history"},
+  "controls": {"title": "Microsoft Copilot for individuals: your privacy controls and choices", "url": "https://support.microsoft.com/en-us/privacy/microsoft-copilot/privacy-controls"},
+  "young": {"title": "Copilot for young people", "url": "https://support.microsoft.com/en-us/privacy/microsoft-copilot/young-people"},
+  "privacy": {"title": "Microsoft Privacy Statement", "url": "https://www.microsoft.com/en-us/privacy/privacystatement"},
+  "state": {"title": "U.S. State Data Privacy Laws Notice", "url": "https://www.microsoft.com/en-us/privacy/usstateprivacynotice"}
+ },
+ "answers": {
+  "training": {
+   "answer": "off_by_default",
+   "summary": "Microsoft says prompts, responses and file contents in the Copilot app are not used to train foundation models.",
+   "evidence": [
+    {"doc": "activity", "quote": "Prompts, responses, and your file contents when using the Microsoft Copilot app aren't used to train foundation models."},
+    {"doc": "activity", "quote": "We don't use this feedback to train the foundation models used by Copilot."},
+    {"doc": "privacy", "quote": "Microsoft Copilot also uses prompts and related data to provide and improve services, including relevant advertising."}
+   ],
+   "note": "Microsoft's statement is about foundation models. Its privacy statement separately says prompts and related data are used to provide and improve services."
+  },
+  "retention": {
+   "answer": "general",
+   "summary": "Microsoft says Copilot keeps your prior conversations so you can return to them. The documents we read for the updated app state no retention period.",
+   "evidence": [
+    {"doc": "controls", "quote": "Microsoft Copilot keeps your prior conversations with Copilot so you can revisit them or continue them at any time."}
+   ]
+  },
+  "deletion": {
+   "answer": "self_serve",
+   "summary": "Microsoft says you can delete single conversations in the app and your whole history in its privacy dashboard. The documents we read do not state how long removal takes.",
+   "evidence": [
+    {"doc": "controls", "quote": "To delete individual conversations from your chat history:"},
+    {"doc": "controls", "quote": "To delete your entire Copilot chat history, see Manage your Copilot activity history in the privacy dashboard."}
+   ]
+  },
+  "human_review": {
+   "answer": "routine",
+   "summary": "Microsoft says people may review Copilot conversations for safety, legal, product improvement or troubleshooting purposes.",
+   "evidence": [
+    {"doc": "young", "quote": "Humans may review your conversations in Copilot for safety, legal, product improvement, or troubleshooting."}
+   ]
+  },
+  "ads_sale": {
+   "answer": "no_sale_ads",
+   "summary": "Microsoft says it does not sell personal information. It says Copilot may show ads to users without a Microsoft 365 subscription, and that personalized ads might use your chat history. A setting turns ad personalization off.",
+   "evidence": [
+    {"doc": "state", "quote": "As noted above, we do not sell personal information"},
+    {"doc": "controls", "quote": "If you use Microsoft Copilot and don’t have a Microsoft 365 subscription, you might see advertising in Copilot."},
+    {"doc": "controls", "quote": "Personalized ads might use your chat history, saved memories, and other Microsoft data you've chosen to share to tailor ads and offers to your interests over time."},
+    {"doc": "controls", "quote": "Regardless of your settings, Copilot doesn’t show personalized advertising to users under the age of 18."}
+   ]
+  },
+  "private_mode": {
+   "answer": "none",
+   "summary": "The documents we read for the updated Copilot app describe no temporary or no-history chat mode.",
+   "evidence": []
+  },
+  "transparency": {
+   "answer": "dated_with_history",
+   "summary": "The privacy statement shows when it was last updated and points to a change history page.",
+   "evidence": [
+    {"doc": "privacy", "quote": "Last Updated: November 2026"},
+    {"doc": "privacy", "quote": "When we post changes to this statement, we will revise the \"last updated\" date at the top of the statement and describe the changes on the Change history page."}
+   ]
+  }
+ },
+ "facts": {
+  "business": {
+   "summary": "Microsoft says these pages do not apply to work, school or organizational accounts.",
+   "evidence": [
+    {"doc": "activity", "quote": "This article does not apply when you sign in to the Microsoft Copilot app or use Copilot in Microsoft 365 apps with a work, school, or organizational (Microsoft Entra) account."}
+   ]
+  },
+  "age": {
+   "summary": "At least 13, or older in some countries and regions.",
+   "evidence": [
+    {"doc": "young", "quote": "You must be at least 13 years old to use Copilot, and in some countries or regions, the minimum age may be higher depending on regional requirements."}
+   ]
+  }
+ },
+ "opt_out": {
+  "summary": "Microsoft says chats in the updated app are not used to train foundation models, so there is no training setting to change. You can turn off ad personalization.",
+  "steps": [
+   "Open Microsoft Copilot and sign in with your Microsoft account.",
+   "Open Settings, then select Personalization.",
+   "Turn off \"Allow ads personalization\"."
+  ],
+  "evidence": [
+   {"doc": "controls", "quote": "Turn off the Allow ads personalization toggle."},
+   {"doc": "controls", "quote": "Generic ads are selected based on the most recent content of your current conversation and don’t use your past chat history."}
+  ],
+  "caveats": [
+   "With personalization off, Microsoft says generic ads are still selected from the most recent content of your current conversation."
+  ]
+ }
+}
