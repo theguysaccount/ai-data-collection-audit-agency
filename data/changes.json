@@ -38,5 +38,75 @@
   "title": "How long do you store my data?",
   "url": "https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data",
   "via": "direct"
+ },
+ {
+  "added": 9,
+  "app": "chatgpt",
+  "archive_url": "",
+  "capture": "",
+  "date": "2026-11-22",
+  "detected": "2026-11-22",
+  "doc": "privacy",
+  "excerpts": [
+   "For individuals in the Republic of Korea, please refer to the Korea Addendum.",
+   "For Free and Go users, we also may collect information about your ads history and interests, such as the type of ad content that you view or engage with.",
+   "We may receive information from advertisers and other data partners, which we use for purposes including to help us measure and improve the effectiveness of our Services, including to help us show more relevant ads to Free and Go users on our Services.",
+   "For Free and Go users, to personalize the ads you see on our Services (subject to your choices and controls), and to measure the effectiveness of ads shown on our Services."
+  ],
+  "id": "2026-11-22-chatgpt-privacy",
+  "quotes_checked": 11,
+  "quotes_missing": [
+   {
+    "criterion": "ads_sale",
+    "quote": "We don’t “sell” Personal Data."
+   },
+   {
+    "criterion": "ads_sale",
+    "quote": "For Free and Go users, to personalize the ads you see on our Services (subject to your settings), and to measure the effectiveness of ads shown on our Services."
+   },
+   {
+    "criterion": "ads_sale",
+    "quote": "Depending upon your choices, we may share limited data with select marketing partners for purposes of promoting our products and services to you on third-party properties."
+   },
+   {
+    "criterion": "transparency",
+    "quote": "Updated: September 10, 2026"
+   },
+   {
+    "criterion": "transparency",
+    "quote": "Previous version"
+   }
+  ],
+  "removed": 0,
+  "title": "OpenAI Privacy Policy (United States)",
+  "url": "https://openai.com/policies/privacy-policy/",
+  "via": "direct"
+ },
+ {
+  "added": 9,
+  "app": "gemini",
+  "archive_url": "",
+  "capture": "",
+  "date": "2026-11-22",
+  "detected": "2026-11-22",
+  "doc": "privacy",
+  "excerpts": [
+   "We provide the controls and resources described in this policy so you can, if any local data protection law applies to the processing of your information, exercise your right to:",
+   "Access, update, rectify and remove your personal information",
+   "Obtain proof of or revoke the authorization given for processing your personal information",
+   "Obtain information about the uses of your personal information"
+  ],
+  "id": "2026-11-22-gemini-privacy",
+  "quotes_checked": 3,
+  "quotes_missing": [
+   {
+    "criterion": "ads_sale",
+    "quote": "Google does not sell your personal information."
+   }
+  ],
+  "removed": 0,
+  "title": "Google Privacy Policy",
+  "url": "https://policies.google.com/privacy?hl=en-US",
+  "via": "direct"
  }
 ]
