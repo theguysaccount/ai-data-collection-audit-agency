@@ -28,7 +28,16 @@ if (!base) {
 }
 if (!base.endsWith("/")) base += "/";
 const bust = server ? "" : `&v=${Date.now()}`;
-const data = await (await fetch(base + "data/scorecards.json" + (bust ? "?" + bust.slice(1) : ""))).json();
+// A new or just-deployed Pages site can answer 404 for a few minutes; wait up to 6 minutes for it.
+let data = null;
+for (let i = 0; i < 36 && !data; i++) {
+  try {
+    const r = await fetch(base + "data/scorecards.json" + (bust ? "?" + bust.slice(1) : ""));
+    if (r.ok) data = await r.json();
+  } catch { /* not up yet */ }
+  if (!data) await new Promise((r) => setTimeout(r, 10000));
+}
+if (!data) { console.log(`FAIL: ${base}data/scorecards.json did not answer with JSON`); process.exit(1); }
 const pages = ["", "rubric/", "changes/", "about/", ...data.apps.map((a) => `apps/${a.slug}/`)];
 const widths = [[1280, false], [390, true]];
 
