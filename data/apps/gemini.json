@@ -9,7 +9,7 @@
   "hub": {"title": "Gemini Apps Privacy Hub", "url": "https://support.google.com/gemini/answer/13594961?hl=en"},
   "activity": {"title": "Manage & delete your history in Gemini Apps", "url": "https://support.google.com/gemini/answer/13278892?hl=en"},
   "chats": {"title": "Chat with Gemini (temporary chats)", "url": "https://support.google.com/gemini/answer/13275745?hl=en"},
-  "privacy": {"title": "Google Privacy Policy", "url": "https://policies.google.com/privacy?hl=en-US"}
+  "privacy": {"title": "Google Privacy Policy", "url": "https://policies.google.com/privacy?hl=en-US&gl=US"}
  },
  "answers": {
   "training": {

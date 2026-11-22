@@ -1,1 +1,17 @@
-[]
+[
+ {
+  "date": "2026-11-22",
+  "app": "chatgpt",
+  "text": "Removed a 22 Nov 2026 change entry for OpenAI's privacy policy. That check ran on a server in Chile, where openai.com shows a different regional version of the policy. This scorecard describes the US version, where every quoted passage still appears word for word, and now reads it at openai.com/policies/us-privacy-policy. No answers changed."
+ },
+ {
+  "date": "2026-11-22",
+  "app": "gemini",
+  "text": "Removed a 22 Nov 2026 change entry for Google's privacy policy. That check ran on a server in Chile, where Google shows Chile's version of the policy, which adds a list of local-law rights and leaves out the sentence quoted here about selling personal information. This scorecard describes the US version, where every quoted passage still appears word for word, and now reads it with gl=US. No answers changed."
+ },
+ {
+  "date": "2026-11-22",
+  "app": "claude",
+  "text": "Removed a 22 Nov 2026 change entry for “How long do you store my data?”: the only new text was a link to another article in the page's “Related articles” list, which the reader now ignores. Claude's documents were re-read the same day; no answers changed."
+ }
+]

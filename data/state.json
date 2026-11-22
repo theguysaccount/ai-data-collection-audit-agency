@@ -1,12 +1,12 @@
 {
- "checked": "2026-11-22T20:21:28Z",
+ "checked": "2026-11-22T20:30:25Z",
  "docs": {
   "chatgpt/consumer-faq": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:14:17Z",
+   "checked": "2026-11-22T20:28:55Z",
    "error": "",
-   "last_ok": "2026-11-22T20:14:17Z",
+   "last_ok": "2026-11-22T20:28:55Z",
    "note": "",
    "status": "ok",
    "url": "https://help.openai.com/en/articles/7039943-data-usage-for-consumer-services-faq",
@@ -16,9 +16,9 @@
   "chatgpt/controls": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:14:13Z",
+   "checked": "2026-11-22T20:28:51Z",
    "error": "",
-   "last_ok": "2026-11-22T20:14:13Z",
+   "last_ok": "2026-11-22T20:28:51Z",
    "note": "",
    "status": "ok",
    "url": "https://help.openai.com/en/articles/7730893-data-controls-faq",
@@ -28,22 +28,21 @@
   "chatgpt/privacy": {
    "archive_url": "",
    "capture": "",
-   "changed": "2026-11-22",
-   "checked": "2026-11-22T20:14:08Z",
+   "checked": "2026-11-22T20:28:46Z",
    "error": "",
-   "last_ok": "2026-11-22T20:14:08Z",
+   "last_ok": "2026-11-22T20:28:46Z",
    "note": "",
    "status": "ok",
-   "url": "https://openai.com/policies/privacy-policy/",
+   "url": "https://openai.com/policies/us-privacy-policy/",
    "via": "direct",
-   "words": 3638
+   "words": 4616
   },
   "chatgpt/temporary": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:14:21Z",
+   "checked": "2026-11-22T20:28:59Z",
    "error": "",
-   "last_ok": "2026-11-22T20:14:21Z",
+   "last_ok": "2026-11-22T20:28:59Z",
    "note": "",
    "status": "ok",
    "url": "https://help.openai.com/en/articles/8914046-temporary-chat-faq",
@@ -53,9 +52,9 @@
   "chatgpt/training": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:14:11Z",
+   "checked": "2026-11-22T20:28:48Z",
    "error": "",
-   "last_ok": "2026-11-22T20:14:11Z",
+   "last_ok": "2026-11-22T20:28:48Z",
    "note": "",
    "status": "ok",
    "url": "https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance",
@@ -65,9 +64,9 @@
   "claude/ads": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:14:42Z",
+   "checked": "2026-11-22T20:29:18Z",
    "error": "",
-   "last_ok": "2026-11-22T20:14:42Z",
+   "last_ok": "2026-11-22T20:29:18Z",
    "note": "",
    "status": "ok",
    "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
@@ -77,9 +76,9 @@
   "claude/commercial": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:14:42Z",
+   "checked": "2026-11-22T20:29:18Z",
    "error": "",
-   "last_ok": "2026-11-22T20:14:42Z",
+   "last_ok": "2026-11-22T20:29:18Z",
    "note": "",
    "status": "ok",
    "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
@@ -89,9 +88,9 @@
   "claude/incognito": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:14:38Z",
+   "checked": "2026-11-22T20:29:13Z",
    "error": "",
-   "last_ok": "2026-11-22T20:14:38Z",
+   "last_ok": "2026-11-22T20:29:13Z",
    "note": "",
    "status": "ok",
    "url": "https://support.claude.com/en/articles/12260368-using-incognito-chats",
@@ -101,9 +100,9 @@
   "claude/privacy": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:14:25Z",
+   "checked": "2026-11-22T20:29:03Z",
    "error": "",
-   "last_ok": "2026-11-22T20:14:25Z",
+   "last_ok": "2026-11-22T20:29:03Z",
    "note": "",
    "status": "ok",
    "url": "https://www.anthropic.com/legal/privacy",
@@ -113,9 +112,9 @@
   "claude/protection": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:14:36Z",
+   "checked": "2026-11-22T20:29:11Z",
    "error": "",
-   "last_ok": "2026-11-22T20:14:36Z",
+   "last_ok": "2026-11-22T20:29:11Z",
    "note": "",
    "status": "ok",
    "url": "https://privacy.claude.com/en/articles/10458704-how-does-anthropic-protect-the-personal-data-of-claude-users",
@@ -125,10 +124,9 @@
   "claude/retention": {
    "archive_url": "",
    "capture": "",
-   "changed": "2026-11-22",
-   "checked": "2026-11-22T20:14:32Z",
+   "checked": "2026-11-22T20:29:07Z",
    "error": "",
-   "last_ok": "2026-11-22T20:14:32Z",
+   "last_ok": "2026-11-22T20:29:07Z",
    "note": "",
    "status": "ok",
    "url": "https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data",
@@ -138,9 +136,9 @@
   "claude/settings": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:14:34Z",
+   "checked": "2026-11-22T20:29:09Z",
    "error": "",
-   "last_ok": "2026-11-22T20:14:34Z",
+   "last_ok": "2026-11-22T20:29:09Z",
    "note": "",
    "status": "ok",
    "url": "https://privacy.claude.com/en/articles/12109829-how-do-i-change-my-model-improvement-privacy-settings",
@@ -150,9 +148,9 @@
   "claude/training": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:14:29Z",
+   "checked": "2026-11-22T20:29:05Z",
    "error": "",
-   "last_ok": "2026-11-22T20:14:29Z",
+   "last_ok": "2026-11-22T20:29:05Z",
    "note": "",
    "status": "ok",
    "url": "https://privacy.claude.com/en/articles/10023580-is-my-data-used-for-model-training",
@@ -162,9 +160,9 @@
   "copilot/activity": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:14:43Z",
+   "checked": "2026-11-22T20:29:18Z",
    "error": "",
-   "last_ok": "2026-11-22T20:14:43Z",
+   "last_ok": "2026-11-22T20:29:18Z",
    "note": "",
    "status": "ok",
    "url": "https://support.microsoft.com/en-us/privacy/microsoft-copilot/activity-history",
@@ -174,9 +172,9 @@
   "copilot/controls": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:14:45Z",
+   "checked": "2026-11-22T20:29:20Z",
    "error": "",
-   "last_ok": "2026-11-22T20:14:45Z",
+   "last_ok": "2026-11-22T20:29:20Z",
    "note": "",
    "status": "ok",
    "url": "https://support.microsoft.com/en-us/privacy/microsoft-copilot/privacy-controls",
@@ -186,9 +184,9 @@
   "copilot/privacy": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:14:49Z",
+   "checked": "2026-11-22T20:29:24Z",
    "error": "",
-   "last_ok": "2026-11-22T20:14:49Z",
+   "last_ok": "2026-11-22T20:29:24Z",
    "note": "",
    "status": "ok",
    "url": "https://www.microsoft.com/en-us/privacy/privacystatement",
@@ -198,9 +196,9 @@
   "copilot/state": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:14:52Z",
+   "checked": "2026-11-22T20:29:27Z",
    "error": "",
-   "last_ok": "2026-11-22T20:14:52Z",
+   "last_ok": "2026-11-22T20:29:27Z",
    "note": "",
    "status": "ok",
    "url": "https://www.microsoft.com/en-us/privacy/usstateprivacynotice",
@@ -210,9 +208,9 @@
   "copilot/young": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:14:47Z",
+   "checked": "2026-11-22T20:29:22Z",
    "error": "",
-   "last_ok": "2026-11-22T20:14:47Z",
+   "last_ok": "2026-11-22T20:29:22Z",
    "note": "",
    "status": "ok",
    "url": "https://support.microsoft.com/en-us/privacy/microsoft-copilot/young-people",
@@ -222,9 +220,9 @@
   "deepseek/privacy": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:14:54Z",
+   "checked": "2026-11-22T20:29:29Z",
    "error": "",
-   "last_ok": "2026-11-22T20:14:54Z",
+   "last_ok": "2026-11-22T20:29:29Z",
    "note": "",
    "status": "ok",
    "url": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html",
@@ -234,9 +232,9 @@
   "deepseek/training": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:14:56Z",
+   "checked": "2026-11-22T20:29:31Z",
    "error": "",
-   "last_ok": "2026-11-22T20:14:56Z",
+   "last_ok": "2026-11-22T20:29:31Z",
    "note": "",
    "status": "ok",
    "url": "https://cdn.deepseek.com/policies/en-US/model-algorithm-disclosure.html",
@@ -246,9 +244,9 @@
   "gemini/activity": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:15:01Z",
+   "checked": "2026-11-22T20:29:36Z",
    "error": "",
-   "last_ok": "2026-11-22T20:15:01Z",
+   "last_ok": "2026-11-22T20:29:36Z",
    "note": "",
    "status": "ok",
    "url": "https://support.google.com/gemini/answer/13278892?hl=en",
@@ -258,9 +256,9 @@
   "gemini/chats": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:15:03Z",
+   "checked": "2026-11-22T20:29:38Z",
    "error": "",
-   "last_ok": "2026-11-22T20:15:03Z",
+   "last_ok": "2026-11-22T20:29:38Z",
    "note": "",
    "status": "ok",
    "url": "https://support.google.com/gemini/answer/13275745?hl=en",
@@ -270,9 +268,9 @@
   "gemini/hub": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:14:59Z",
+   "checked": "2026-11-22T20:29:33Z",
    "error": "",
-   "last_ok": "2026-11-22T20:14:59Z",
+   "last_ok": "2026-11-22T20:29:33Z",
    "note": "",
    "status": "ok",
    "url": "https://support.google.com/gemini/answer/13594961?hl=en",
@@ -282,24 +280,23 @@
   "gemini/privacy": {
    "archive_url": "",
    "capture": "",
-   "changed": "2026-11-22",
-   "checked": "2026-11-22T20:15:05Z",
+   "checked": "2026-11-22T20:29:40Z",
    "error": "",
-   "last_ok": "2026-11-22T20:15:05Z",
+   "last_ok": "2026-11-22T20:29:40Z",
    "note": "",
    "status": "ok",
-   "url": "https://policies.google.com/privacy?hl=en-US",
+   "url": "https://policies.google.com/privacy?hl=en-US&gl=US",
    "via": "direct",
-   "words": 9322
+   "words": 10639
   },
   "grok/faq": {
    "archive_url": "",
    "capture": "",
    "changed": "2026-11-22",
-   "checked": "2026-11-22T20:15:11Z",
+   "checked": "2026-11-22T20:29:49Z",
    "error": "",
    "last_ok": "2026-11-22T20:15:11Z",
-   "note": "",
+   "note": "the live page refuses automated readers (HTTP 403); showing the last good read",
    "status": "ok",
    "url": "https://x.ai/legal/faq",
    "via": "direct",
@@ -308,10 +305,10 @@
   "grok/privacy": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:15:09Z",
+   "checked": "2026-11-22T20:29:42Z",
    "error": "",
    "last_ok": "2026-11-22T20:15:09Z",
-   "note": "",
+   "note": "the live page refuses automated readers (HTTP 403); showing the last good read",
    "status": "ok",
    "url": "https://x.ai/legal/privacy-policy",
    "via": "direct",
@@ -320,9 +317,9 @@
   "mistral/delete": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:15:24Z",
+   "checked": "2026-11-22T20:30:07Z",
    "error": "",
-   "last_ok": "2026-11-22T20:15:24Z",
+   "last_ok": "2026-11-22T20:30:07Z",
    "note": "",
    "status": "ok",
    "url": "https://help.mistral.ai/en/articles/347613-can-i-delete-a-chat-conversation",
@@ -332,9 +329,9 @@
   "mistral/help-vibe": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:15:25Z",
+   "checked": "2026-11-22T20:30:09Z",
    "error": "",
-   "last_ok": "2026-11-22T20:15:25Z",
+   "last_ok": "2026-11-22T20:30:09Z",
    "note": "",
    "status": "ok",
    "url": "https://help.mistral.ai/en/collections/789629-vibe",
@@ -344,9 +341,9 @@
   "mistral/opt-out": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:15:22Z",
+   "checked": "2026-11-22T20:30:05Z",
    "error": "",
-   "last_ok": "2026-11-22T20:15:22Z",
+   "last_ok": "2026-11-22T20:30:05Z",
    "note": "",
    "status": "ok",
    "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
@@ -356,9 +353,9 @@
   "mistral/privacy": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:15:13Z",
+   "checked": "2026-11-22T20:29:59Z",
    "error": "",
-   "last_ok": "2026-11-22T20:15:13Z",
+   "last_ok": "2026-11-22T20:29:59Z",
    "note": "",
    "status": "ok",
    "url": "https://legal.mistral.ai/terms/privacy-policy",
@@ -368,9 +365,9 @@
   "mistral/training": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:15:19Z",
+   "checked": "2026-11-22T20:30:03Z",
    "error": "",
-   "last_ok": "2026-11-22T20:15:19Z",
+   "last_ok": "2026-11-22T20:30:03Z",
    "note": "",
    "status": "ok",
    "url": "https://help.mistral.ai/en/articles/347617-do-you-use-my-user-data-to-train-your-artificial-intelligence-models",
@@ -380,10 +377,10 @@
   "perplexity/collection": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:15:34Z",
+   "checked": "2026-11-22T20:30:16Z",
    "error": "",
-   "last_ok": "2026-11-22T08:24:05Z",
-   "note": "the live page refuses automated readers (HTTP 403); showing the last good read",
+   "last_ok": "2026-11-22T20:30:16Z",
+   "note": "",
    "status": "ok",
    "url": "https://www.perplexity.ai/help-center/en/articles/11564572-data-collection-at-perplexity",
    "via": "direct",
@@ -392,10 +389,10 @@
   "perplexity/incognito": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:17:58Z",
+   "checked": "2026-11-22T20:30:23Z",
    "error": "",
-   "last_ok": "2026-11-22T08:24:12Z",
-   "note": "the live page refuses automated readers (HTTP 403); showing the last good read",
+   "last_ok": "2026-11-22T20:30:23Z",
+   "note": "",
    "status": "ok",
    "url": "https://www.perplexity.ai/help-center/en/articles/12639758-incognito-mode-troubleshooting",
    "via": "direct",
@@ -404,10 +401,10 @@
   "perplexity/privacy": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:15:27Z",
+   "checked": "2026-11-22T20:30:11Z",
    "error": "",
-   "last_ok": "2026-11-22T08:24:00Z",
-   "note": "the live page refuses automated readers (HTTP 403); showing the last good read",
+   "last_ok": "2026-11-22T20:30:11Z",
+   "note": "",
    "status": "ok",
    "url": "https://www.perplexity.ai/hub/legal/privacy-policy",
    "via": "direct",
@@ -416,10 +413,10 @@
   "perplexity/providers": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:17:52Z",
+   "checked": "2026-11-22T20:30:22Z",
    "error": "",
-   "last_ok": "2026-11-22T08:24:10Z",
-   "note": "the live page refuses automated readers (HTTP 403); showing the last good read",
+   "last_ok": "2026-11-22T20:30:22Z",
+   "note": "",
    "status": "ok",
    "url": "https://www.perplexity.ai/help-center/en/articles/10354963-are-third-party-model-providers-training-on-my-data",
    "via": "direct",
@@ -428,10 +425,10 @@
   "perplexity/retention": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:15:46Z",
+   "checked": "2026-11-22T20:30:17Z",
    "error": "",
-   "last_ok": "2026-11-22T08:24:06Z",
-   "note": "the live page refuses automated readers (HTTP 403); showing the last good read",
+   "last_ok": "2026-11-22T20:30:17Z",
+   "note": "",
    "status": "ok",
    "url": "https://www.perplexity.ai/help-center/en/articles/10354873-how-long-does-perplexity-retain-my-search-history-profile-data-and-personal-information",
    "via": "direct",
@@ -440,17 +437,17 @@
   "perplexity/self-serve": {
    "archive_url": "",
    "capture": "",
-   "checked": "2026-11-22T20:17:47Z",
+   "checked": "2026-11-22T20:30:19Z",
    "error": "",
-   "last_ok": "2026-11-22T08:24:08Z",
-   "note": "the live page refuses automated readers (HTTP 403); showing the last good read",
+   "last_ok": "2026-11-22T20:30:19Z",
+   "note": "",
    "status": "ok",
    "url": "https://www.perplexity.ai/hub/legal/self-serve-data-options",
    "via": "direct",
    "words": 718
   }
  },
- "last_run_ok": "2026-11-22T20:21:28Z",
+ "last_run_ok": "2026-11-22T20:30:25Z",
  "quotes": {
   "04037c8591b132": {
    "app": "grok",
@@ -617,9 +614,8 @@
   "37255d61fd78d9": {
    "app": "chatgpt",
    "doc": "privacy",
-   "found": false,
-   "last_found": "2026-11-22",
-   "missing_since": "2026-11-22"
+   "found": true,
+   "last_found": "2026-11-22"
   },
   "388f59fb227767": {
    "app": "grok",
@@ -702,9 +698,8 @@
   "4b0bfb14299330": {
    "app": "chatgpt",
    "doc": "privacy",
-   "found": false,
-   "last_found": "2026-11-22",
-   "missing_since": "2026-11-22"
+   "found": true,
+   "last_found": "2026-11-22"
   },
   "4cf2687f6c2eae": {
    "app": "deepseek",
@@ -739,9 +734,8 @@
   "543a6cf10c9f68": {
    "app": "gemini",
    "doc": "privacy",
-   "found": false,
-   "last_found": "2026-11-22",
-   "missing_since": "2026-11-22"
+   "found": true,
+   "last_found": "2026-11-22"
   },
   "5686f834181be6": {
    "app": "mistral",
@@ -1058,9 +1052,8 @@
   "b2711986cd856d": {
    "app": "chatgpt",
    "doc": "privacy",
-   "found": false,
-   "last_found": "2026-11-22",
-   "missing_since": "2026-11-22"
+   "found": true,
+   "last_found": "2026-11-22"
   },
   "b2b21f1c7e7f92": {
    "app": "claude",
@@ -1149,9 +1142,8 @@
   "c750d73c305c25": {
    "app": "chatgpt",
    "doc": "privacy",
-   "found": false,
-   "last_found": "2026-11-22",
-   "missing_since": "2026-11-22"
+   "found": true,
+   "last_found": "2026-11-22"
   },
   "c78b797472b8be": {
    "app": "claude",
@@ -1222,9 +1214,8 @@
   "de672459f625b7": {
    "app": "chatgpt",
    "doc": "privacy",
-   "found": false,
-   "last_found": "2026-11-22",
-   "missing_since": "2026-11-22"
+   "found": true,
+   "last_found": "2026-11-22"
   },
   "e2ab58ae57a233": {
    "app": "copilot",
