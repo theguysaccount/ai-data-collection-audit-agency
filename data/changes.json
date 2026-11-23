@@ -19,5 +19,24 @@
   "title": "Grok Consumer FAQs",
   "url": "https://x.ai/legal/faq",
   "via": "direct"
+ },
+ {
+  "added": 1,
+  "app": "gemini",
+  "archive_url": "",
+  "capture": "",
+  "date": "2026-11-23",
+  "detected": "2026-11-23",
+  "doc": "hub",
+  "excerpts": [
+   "Last updated: November 23, 2026"
+  ],
+  "id": "2026-11-23-gemini-hub",
+  "quotes_checked": 13,
+  "quotes_missing": [],
+  "removed": 1,
+  "title": "Gemini Apps Privacy Hub",
+  "url": "https://support.google.com/gemini/answer/13594961?hl=en",
+  "via": "direct"
  }
 ]
