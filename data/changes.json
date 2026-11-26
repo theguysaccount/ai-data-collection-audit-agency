@@ -38,5 +38,181 @@
   "title": "Gemini Apps Privacy Hub",
   "url": "https://support.google.com/gemini/answer/13594961?hl=en",
   "via": "direct"
+ },
+ {
+  "added": 2,
+  "app": "chatgpt",
+  "archive_url": "",
+  "capture": "",
+  "date": "2026-11-26",
+  "detected": "2026-11-26",
+  "doc": "training",
+  "excerpts": [
+   "For a limited subset of API customers who do not have modified retention enabled and are not managed by our sales team, we may use API content to train safety classifiers and conduct safety evaluations that help detect and prevent abuse.",
+   "This use is separate from foundation model training and does not require an opt-in to model training."
+  ],
+  "id": "2026-11-26-chatgpt-training",
+  "quotes_checked": 4,
+  "quotes_missing": [],
+  "removed": 0,
+  "title": "How your data is used to improve model performance",
+  "url": "https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance",
+  "via": "direct"
+ },
+ {
+  "added": 3,
+  "app": "chatgpt",
+  "archive_url": "",
+  "capture": "",
+  "date": "2026-11-26",
+  "detected": "2026-11-26",
+  "doc": "controls",
+  "excerpts": [
+   "By default, API inputs and outputs are not used to train our foundation models.",
+   "Separately, we may use API content from a limited subset of API customers for safety-classifier training and safety evaluations.",
+   "See the API Platform FAQ on our Enterprise Privacy page for details about these uses and which customers they apply to."
+  ],
+  "id": "2026-11-26-chatgpt-controls",
+  "quotes_checked": 5,
+  "quotes_missing": [],
+  "removed": 1,
+  "title": "Data controls in ChatGPT",
+  "url": "https://help.openai.com/en/articles/7730893-data-controls-faq",
+  "via": "direct"
+ },
+ {
+  "added": 5,
+  "app": "chatgpt",
+  "archive_url": "",
+  "capture": "",
+  "date": "2026-11-26",
+  "detected": "2026-11-26",
+  "doc": "temporary",
+  "excerpts": [
+   "If you save the chat, it becomes a regular chat.",
+   "Select Temporary or Temporary chat.",
+   "If you see a personalization option, choose Personalized or Unpersonalized before you send your first message.",
+   "If you save a temporary chat, it becomes a regular chat in your history."
+  ],
+  "id": "2026-11-26-chatgpt-temporary",
+  "quotes_checked": 2,
+  "quotes_missing": [],
+  "removed": 5,
+  "title": "Temporary Chat FAQ",
+  "url": "https://help.openai.com/en/articles/8914046-temporary-chat-faq",
+  "via": "direct"
+ },
+ {
+  "added": 2,
+  "app": "claude",
+  "archive_url": "",
+  "capture": "",
+  "date": "2026-11-26",
+  "detected": "2026-11-26",
+  "doc": "incognito",
+  "excerpts": [
+   "Your monthly recap is designed to leave out incognito chats.",
+   "If you have the monthly recap, we still record the time you have Claude open, in incognito chats too."
+  ],
+  "id": "2026-11-26-claude-incognito",
+  "quotes_checked": 3,
+  "quotes_missing": [],
+  "removed": 3,
+  "title": "Using incognito chats",
+  "url": "https://support.claude.com/en/articles/12260368-using-incognito-chats",
+  "via": "direct"
+ },
+ {
+  "added": 5,
+  "app": "copilot",
+  "archive_url": "",
+  "capture": "",
+  "date": "2026-11-26",
+  "detected": "2026-11-26",
+  "doc": "activity",
+  "excerpts": [
+   "Skip to main content Support Microsoft 365 Office Microsoft 365 Outlook Microsoft Teams OneDrive Microsoft Copilot OneNote Windows more ...",
+   "Surface PC Accessories Xbox PC Gaming HoloLens Surface Hub Hardware warranties Account & billing Community forums Microsoft 365 Admins Developer Education Report a support scam Product safety Buy Microsoft 365",
+   "Surface Laptop Ultra Surface Pro Surface Laptop Surface RTX Spark Dev Box Explore Copilot Explore Microsoft products Windows 11 apps Account profile Download Center Microsoft Store support Returns Order tracking Certified Refurbished Why buy from Microsoft Store Flexible …",
+   "Microsoft AI Microsoft Security Dynamics 365 Microsoft 365 Microsoft Power Platform Microsoft Teams Microsoft Copilot Small Business Azure Microsoft Developer Microsoft Learn Support for AI marketplace apps Microsoft Tech Community Microsoft Marketplace Software companies Visual …"
+  ],
+  "id": "2026-11-26-copilot-activity",
+  "quotes_checked": 3,
+  "quotes_missing": [],
+  "removed": 0,
+  "title": "Microsoft Copilot for individuals: your activity history",
+  "url": "https://support.microsoft.com/en-us/privacy/microsoft-copilot/activity-history",
+  "via": "direct"
+ },
+ {
+  "added": 5,
+  "app": "copilot",
+  "archive_url": "",
+  "capture": "",
+  "date": "2026-11-26",
+  "detected": "2026-11-26",
+  "doc": "controls",
+  "excerpts": [
+   "Skip to main content Support Microsoft 365 Office Microsoft 365 Outlook Microsoft Teams OneDrive Microsoft Copilot OneNote Windows more ...",
+   "Surface PC Accessories Xbox PC Gaming HoloLens Surface Hub Hardware warranties Account & billing Community forums Microsoft 365 Admins Developer Education Report a support scam Product safety Buy Microsoft 365",
+   "Surface Laptop Ultra Surface Pro Surface Laptop Surface RTX Spark Dev Box Explore Copilot Explore Microsoft products Windows 11 apps Account profile Download Center Microsoft Store support Returns Order tracking Certified Refurbished Why buy from Microsoft Store Flexible …",
+   "Microsoft AI Microsoft Security Dynamics 365 Microsoft 365 Microsoft Power Platform Microsoft Teams Microsoft Copilot Small Business Azure Microsoft Developer Microsoft Learn Support for AI marketplace apps Microsoft Tech Community Microsoft Marketplace Software companies Visual …"
+  ],
+  "id": "2026-11-26-copilot-controls",
+  "quotes_checked": 8,
+  "quotes_missing": [],
+  "removed": 0,
+  "title": "Microsoft Copilot for individuals: your privacy controls and choices",
+  "url": "https://support.microsoft.com/en-us/privacy/microsoft-copilot/privacy-controls",
+  "via": "direct"
+ },
+ {
+  "added": 5,
+  "app": "copilot",
+  "archive_url": "",
+  "capture": "",
+  "date": "2026-11-26",
+  "detected": "2026-11-26",
+  "doc": "young",
+  "excerpts": [
+   "Skip to main content Support Microsoft 365 Office Microsoft 365 Outlook Microsoft Teams OneDrive Microsoft Copilot OneNote Windows more ...",
+   "Surface PC Accessories Xbox PC Gaming HoloLens Surface Hub Hardware warranties Account & billing Community forums Microsoft 365 Admins Developer Education Report a support scam Product safety Buy Microsoft 365",
+   "Surface Laptop Ultra Surface Pro Surface Laptop Surface RTX Spark Dev Box Explore Copilot Explore Microsoft products Windows 11 apps Account profile Download Center Microsoft Store support Returns Order tracking Certified Refurbished Why buy from Microsoft Store Flexible …",
+   "Microsoft AI Microsoft Security Dynamics 365 Microsoft 365 Microsoft Power Platform Microsoft Teams Microsoft Copilot Small Business Azure Microsoft Developer Microsoft Learn Support for AI marketplace apps Microsoft Tech Community Microsoft Marketplace Software companies Visual …"
+  ],
+  "id": "2026-11-26-copilot-young",
+  "quotes_checked": 2,
+  "quotes_missing": [],
+  "removed": 0,
+  "title": "Copilot for young people",
+  "url": "https://support.microsoft.com/en-us/privacy/microsoft-copilot/young-people",
+  "via": "direct"
+ },
+ {
+  "added": 24,
+  "app": "gemini",
+  "archive_url": "",
+  "capture": "",
+  "date": "2026-11-26",
+  "detected": "2026-11-26",
+  "doc": "hub",
+  "excerpts": [
+   "Last updated: November 24, 2026",
+   "By default, your Gemini Apps chats are not being used to show you ads.",
+   "(Coming soon) Eligible users can connect Gemini chats as a Google content app when using Personal Intelligence in AI Mode.",
+   "If you use Personal Intelligence in AI Mode and choose to connect Gemini chats, Search services will process Gemini chats data to personalize your Search services experience or do things for you as explained in more detail here."
+  ],
+  "id": "2026-11-26-gemini-hub",
+  "quotes_checked": 13,
+  "quotes_missing": [
+   {
+    "criterion": "ads_sale",
+    "quote": "Your Gemini Apps chats are not being used to show you ads. If this changes, we will clearly communicate it to you."
+   }
+  ],
+  "removed": 16,
+  "title": "Gemini Apps Privacy Hub",
+  "url": "https://support.google.com/gemini/answer/13594961?hl=en",
+  "via": "direct"
  }
 ]
